@@ -11,6 +11,22 @@ export const Wave = styled.img`
 
 export const Article = styled.article`
     background: ${({ theme }) => theme.color.secondColor};
+    position: relative;
+`;
+
+export const Circle = styled.img <{ bottom?: boolean, top?: boolean }>`
+    position: absolute;
+    top: 340px;
+
+    ${({ bottom }) => bottom && css`
+        top: 940px;
+        right: 20px;
+    `};
+
+    ${({ top }) => top && css`
+        top: 40px;
+        right: 20px;
+    `};
 `;
 
 export const Container = styled.div`
@@ -52,6 +68,7 @@ export const Avatar = styled.img`
     max-width: 320px;
     width: 100%;
     margin: 0 auto;
+    z-index: 10;
 `;
 
 export const AvatarTextWrapper = styled.div`

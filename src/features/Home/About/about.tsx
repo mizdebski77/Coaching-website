@@ -1,14 +1,19 @@
 import React from 'react';
-import { Article, Avatar, AvatarText, AvatarTextWrapper, AvatarTitle, AvatarWrapper, Container, Title, Wave, Wrapper } from './styledAbout';
+import { Article, Avatar, AvatarText, AvatarTextWrapper, AvatarTitle, AvatarWrapper, Circle, Container, Title, Wave, Wrapper } from './styledAbout';
 import upWave from '../../../common/Images/upWave.svg';
 import avatar from '../../../common/Images/avatar.svg';
 import bottomWave from '../../../common/Images/bottomWave.svg';
+import circle from '../../../common/Images/pattern-circle.svg';
 
 export const About = () => {
     return (
         <Wrapper>
             <Wave src={upWave} />
             <Article>
+                <Circle src={circle} />
+                <Circle src={circle} bottom />
+                <Circle src={circle} top />
+
                 <Container>
                     <Title> O Nas</Title>
 
