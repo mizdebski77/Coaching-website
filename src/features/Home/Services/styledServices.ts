@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const Wrapper = styled.section`
     max-width: 1500px;
-    margin:  -160px auto;
+    margin:  -120px auto;
 `;
 
 
@@ -63,7 +63,6 @@ export const TilePriceWrapper = styled.span`
     border: 3px solid ${({ theme }) => theme.color.fontColor};
     align-self: self-start;
     margin-top: -52px;
-
 `;
 
 export const TilePrice = styled.span`
