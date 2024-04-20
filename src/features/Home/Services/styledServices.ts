@@ -1,8 +1,25 @@
-import { styled } from "styled-components";
+import { css, styled } from "styled-components";
 
 export const Wrapper = styled.section`
     max-width: 1500px;
     margin:  -120px auto;
+    position: relative;
+`;
+
+export const SVG = styled.img <{ bottom?: boolean, top?: boolean }>`
+    position: absolute;
+    top: 0px;
+    max-width: 100px;
+    opacity: 0.3;
+
+    ${({ bottom }) => bottom && css`
+        bottom: -120px;
+        right: 80px;
+        top: auto;
+        max-width: 156px;
+        opacity: 0.7;
+    `};
+
 `;
 
 

@@ -1,9 +1,28 @@
-import { styled } from "styled-components";
+import { css, styled } from "styled-components";
 
 export const Wrapper = styled.section`
     margin-top: -140px;
     display: grid;
+    position: relative;
 `;
+
+export const SVG = styled.img <{ bottom?: boolean, top?: boolean }>`
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    max-width: 100px;
+    opacity: 0.3;
+
+    ${({ bottom }) => bottom && css`
+        bottom: 80px;
+        right: 90px;
+        left: auto;
+        top: auto;
+        max-width: 80px;
+        opacity: 0.2;
+    `};
+`;
+
 
 export const Article = styled.article`
     background: ${({ theme }) => theme.color.secondColor};
