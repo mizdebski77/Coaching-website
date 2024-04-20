@@ -7,7 +7,7 @@ export const Wrapper = styled.section`
 
 export const Article = styled.article`
     background: ${({ theme }) => theme.color.secondColor};
-    padding: 80px 40px;
+    padding: 120px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;

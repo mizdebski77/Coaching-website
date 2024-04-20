@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, ImageWrapper, TextWrapper, Title, TitleLink, TitleParagraph, TitleSpan, Wrapper } from './styledHeader';
+import { Image, TextWrapper, Title, TitleLink, TitleParagraph, TitleSpan, Wrapper } from './styledHeader';
 import image from '../../../common/Images/header.svg';
 
 export const Header = () => {
