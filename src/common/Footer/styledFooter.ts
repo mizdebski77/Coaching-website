@@ -9,6 +9,7 @@ export const Wrapper = styled.footer`
     padding: 120px 20px;
     background: ${({ theme }) => theme.color.fontColor};
     color: white;
+    position: relative;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
         display: grid;
@@ -47,7 +48,11 @@ export const LinksWrapper = styled.div`
     align-items: center;
 `;
 
-const activeClassName = "active";
+export const Circles = styled.img`
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+`;
 
 export const NavLink = styled(Link)`
     color: black;

@@ -1,9 +1,10 @@
 import React from 'react';
-import { FooterTitle, Image, LinksWrapper, Logo, LogoSpan, NavLink, SVGLink, SVGLinks, Socials, Wrapper } from './styledFooter';
+import { Circles, FooterTitle, Image, LinksWrapper, Logo, LogoSpan, NavLink, SVGLink, SVGLinks, Socials, Wrapper } from './styledFooter';
 import { LinksData } from '../../core/arrays';
 import phone from '../Images/phone.svg';
 import mail from '../Images/mail.svg';
 import facebook from '../Images/facebook.svg';
+import circle from '../Images/SemiCircles.svg';
 
 export const Footer = () => {
     return (
@@ -18,6 +19,7 @@ export const Footer = () => {
 
             <LinksWrapper>
                 <FooterTitle> Menu:</FooterTitle>
+                <Circles src={circle} />
 
                 {LinksData.map((link, index) => (
                     <NavLink

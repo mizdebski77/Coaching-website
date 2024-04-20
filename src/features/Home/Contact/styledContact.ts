@@ -48,7 +48,7 @@ export const Link = styled.a`
     font-size: 24px;
     padding: 16px 80px;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
 
