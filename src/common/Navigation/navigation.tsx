@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, LinksWrapper, Logo, LogoSpan, MobileLinksWrapper, MobileNavbar, MobileNavbarWrapper, NavLink, Wrapper } from './styledNavigation';
-import { LinksData, MobileLinksWrapperAnimation, MobileNavAnimation } from '../../core/arrays';
+import { LinksData, MobileLinksWrapperAnimation,  mobileNavAnimation } from '../../core/arrays';
 import { AnimatePresence, motion } from 'framer-motion';
 import Hamburger from 'hamburger-react';
 
@@ -38,7 +38,7 @@ export const Navigation = () => {
                 </LinksWrapper>
 
                 <MobileNavbar onClick={toggleMobileNavbar}>
-                    <Hamburger color='#D9B815' size={28} />
+                    <Hamburger color='#F39A13' size={24} />
                 </MobileNavbar>
             </Container>
 
@@ -51,7 +51,7 @@ export const Navigation = () => {
                         initial="hidden"
                         animate={mobileNavbar ? "visible" : "hidden"}
                         exit="hidden"
-                        variants={MobileNavAnimation}
+                        variants={mobileNavAnimation}
                     >
 
                         <MobileLinksWrapper

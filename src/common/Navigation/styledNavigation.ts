@@ -6,13 +6,20 @@ export const Wrapper = styled.nav`
 `;
 
 export const Container = styled.div`
-  position: fixed;
-  z-index: 10;
   width: 100%;
-  padding: 28px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-between;
+  padding: 28px 54px;
+  position: sticky;
+  z-index: 10; 
+  top:0;
+  background: ${({ theme }) => theme.color.mainColor};
+  transition: 0.3s;
+
+  @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+    padding: 12px 20px;
+  };
 `;
 
 export const Logo = styled(Link)`
@@ -22,7 +29,7 @@ export const Logo = styled(Link)`
     font-weight: normal;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-      font-size: 20px;
+      font-size: 24px;
     };
 `;
 
@@ -31,8 +38,8 @@ export const LogoSpan = styled.span`
 `;
 
 export const LinksWrapper = styled.div`
-  display: grid;
-  grid-template-columns: repeat(5, auto);
+  display: flex;
+  justify-content: space-evenly;
   gap: 50px;
   align-items: center;
 
@@ -52,16 +59,28 @@ export const NavLink = styled(Link)`
     &:hover {
         transform: translateY(-5px);
         color: ${({ theme }) => theme.color.fontColor};
+        
+        @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+          transform: none;
+          color: white;
+        }
     };
 
     &.${activeClassName} {
         color: ${({ theme }) => theme.color.fontColor};
         border-bottom: 1px solid ${({ theme }) => theme.color.fontColor};
+
+        @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+          border-bottom: 1px solid white;
+        }
     };
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
       text-align: center;
+      color: white;
+      font-weight: normal;
       padding: 4px;
+      font-size: 16px;
     };
 `;
 
@@ -77,19 +96,23 @@ export const MobileNavbar = styled.div`
 `;
 
 export const MobileNavbarWrapper = styled.div`
-    background: ${({ theme }) => theme.color.fontColor};
+    background: ${({ theme }) => theme.color.fontColor};;
     position: fixed;
     width: 100%;
-    z-index: 10;
-    top: 73px;
+    z-index: 1;
+    min-height: 200px;
 
+    @media (min-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        display: none;
+    };
 `;
+
 
 export const MobileLinksWrapper = styled.div`
     display: grid;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    padding: 24px;
 `;
 
 
