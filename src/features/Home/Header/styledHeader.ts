@@ -35,7 +35,7 @@ export const TitleLink = styled.a`
     padding: 16px 32px;
     font-size: 24px;
     color: white;
-    border-radius: 16px;
+    border-radius: 20px;
     margin: 0 auto;
     cursor: pointer;
     transition: 0.3s;
