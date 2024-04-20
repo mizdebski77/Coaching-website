@@ -39,3 +39,9 @@ export const MobileLinksWrapperAnimation = {
         }
     }
 };
+
+export const ServicesData = [
+    { title: 'Usłgua', text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation', price: '1000 zł' },
+    { title: 'Usłgua', text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation', price: '1000 zł' },
+    { title: 'Usłgua', text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation', price: '1000 zł' },
+];
