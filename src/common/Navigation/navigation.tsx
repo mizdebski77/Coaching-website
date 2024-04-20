@@ -1,10 +1,80 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Container, LinksWrapper, Logo, LogoSpan, MobileLinksWrapper, MobileNavbar, MobileNavbarWrapper, NavLink, Wrapper } from './styledNavigation';
+import { LinksData, MobileLinksWrapperAnimation, MobileNavAnimation } from '../../core/arrays';
+import { AnimatePresence, motion } from 'framer-motion';
+import Hamburger from 'hamburger-react';
 
 export const Navigation = () => {
-    return (
-        <div>
 
-        </div>
+    const [mobileNavbar, setMobileNavbar] = useState(false);
+
+    const toggleMobileNavbar = () => {
+        setMobileNavbar(!mobileNavbar);
+    };
+
+
+    return (
+        <Wrapper>
+            <Container>
+                <Logo to="home"
+                    spy={true}
+                    offset={-70}
+                    smooth={true}
+                    duration={1500}>
+                    <LogoSpan>Logo</LogoSpan> Firmy
+                </Logo>
+
+                <LinksWrapper>
+                    {LinksData.map((link, index) => (
+                        <NavLink
+                            key={index}
+                            spy={true}
+                            to={link.to}
+                            smooth={true}
+                        >
+                            {link.text}
+                        </NavLink>
+                    ))}
+                </LinksWrapper>
+
+                <MobileNavbar onClick={toggleMobileNavbar}>
+                    <Hamburger color='#D9B815' size={28} />
+                </MobileNavbar>
+            </Container>
+
+            <AnimatePresence>
+
+                {mobileNavbar && (
+
+                    <MobileNavbarWrapper
+                        as={motion.div}
+                        initial="hidden"
+                        animate={mobileNavbar ? "visible" : "hidden"}
+                        exit="hidden"
+                        variants={MobileNavAnimation}
+                    >
+
+                        <MobileLinksWrapper
+                            as={motion.div}
+                            initial="hidden"
+                            animate="visible"
+                            exit="hidden"
+                            variants={MobileLinksWrapperAnimation}
+                        >
+                            {LinksData.map((link, index) => (
+                                <NavLink
+                                    key={index}
+                                    spy={true}
+                                    to={link.to}
+                                    smooth={true}
+                                >
+                                    {link.text}
+                                </NavLink>
+                            ))}
+                        </MobileLinksWrapper>
+                    </MobileNavbarWrapper>)}
+            </AnimatePresence>
+        </Wrapper>
     );
 };
 

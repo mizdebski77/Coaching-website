@@ -1,13 +1,13 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import { Navbar } from '../common/Navbar/navbar';
+import { Navigation } from '../common/Navigation/navigation';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
+    <>
+      <Navigation />
 
-    </BrowserRouter>
+    </>
+
   );
 }
 
