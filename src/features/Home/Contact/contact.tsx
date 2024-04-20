@@ -6,11 +6,12 @@ import contact from '../../../common/Images/contact.svg';
 export const Contact = () => {
     return (
         <Wrapper>
-            <SVG src={contact} />
-            <SVG src={contact} bottom />
 
             <Wave src={wave} />
             <Article>
+                <SVG src={contact} />
+                <SVG src={contact} bottom />
+
                 <Title> Zainteresowaliśmy cię?</Title>
                 <LinkWrapper >
                     <Link href='https://www.youtube.com/'>Napisz do nas</Link> <Span>Lub</Span> <Link> Skontakuj się z nami telefonicznie</Link>

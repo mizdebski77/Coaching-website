@@ -10,13 +10,13 @@ export const About = () => {
         <Wrapper>
             <Wave src={upWave} />
             <Article>
-                <Circle src={circle} />
-                <Circle src={circle} bottom />
-                <Circle src={circle} top />
+
 
                 <Container>
                     <Title> O Nas</Title>
-
+                    <Circle src={circle} />
+                    <Circle src={circle} bottom />
+                    <Circle src={circle} top />
                     <AvatarWrapper>
                         <Avatar src={avatar} />
 

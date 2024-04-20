@@ -3,12 +3,11 @@ import { css, styled } from "styled-components";
 export const Wrapper = styled.section`
     margin-top: -140px;
     display: grid;
-    position: relative;
 `;
 
 export const SVG = styled.img <{ bottom?: boolean, top?: boolean }>`
     position: absolute;
-    top: 400px;
+    top: 40px;
     left: 80px;
     max-width: 100px;
     opacity: 0.3;
@@ -31,6 +30,7 @@ export const Article = styled.article`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 `;
 
 export const Title = styled.h4`

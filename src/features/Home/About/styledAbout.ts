@@ -11,21 +11,27 @@ export const Wave = styled.img`
 
 export const Article = styled.article`
     background: ${({ theme }) => theme.color.secondColor};
-    position: relative;
+
 `;
 
 export const Circle = styled.img <{ bottom?: boolean, top?: boolean }>`
     position: absolute;
     top: 340px;
+    left: -40px;
+    opacity: 0.9;
 
     ${({ bottom }) => bottom && css`
         top: 940px;
         right: 20px;
+        opacity: 0.5;
+        left: auto;
+        right: -40px;
     `};
 
     ${({ top }) => top && css`
         top: 40px;
-        right: 20px;
+        left: auto;
+        right: -200px;
     `};
 `;
 
@@ -34,6 +40,7 @@ export const Container = styled.div`
     margin: 0 auto;
     display: grid;
     gap: 40px;
+    position: relative;
 `;
 
 export const Title = styled.h2`
