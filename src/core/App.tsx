@@ -1,12 +1,12 @@
 import React from 'react';
 import { Navigation } from '../common/Navigation/navigation';
-import { Header } from '../features/Home/Header/header';
+import { Home } from '../features/Home/home';
 
 function App() {
   return (
     <>
       <Navigation />
-      <Header />
+      <Home />
     </>
 
   );
