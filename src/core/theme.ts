@@ -3,7 +3,7 @@ export const theme = {
         mainColor: "#EFEEEE",
         secondColor: "#E2E2E2",
         fontColor: "#F39A13",
-        fontSecond: '646464',
+        fontSecond: '#646464',
     },
 
     breakPoint: {

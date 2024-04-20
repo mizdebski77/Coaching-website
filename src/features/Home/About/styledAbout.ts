@@ -21,8 +21,9 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h2`
-    font-size: 54px;
-    font-weight: normal;
+    font-size: 62px;
+    letter-spacing: 4px;
+    font-weight: medium;
     text-align: center;
     color: ${({ theme }) => theme.color.fontColor};
     margin: 0;
@@ -44,6 +45,7 @@ export const AvatarWrapper = styled.div <{ reverse?: boolean }>`
 export const AvatarTitle = styled.span`
     font-size: 40px;
     margin: 0 auto;
+    color: ${({ theme }) => theme.color.fontSecond};
 `;
 
 export const Avatar = styled.img`

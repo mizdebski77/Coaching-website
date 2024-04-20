@@ -2,6 +2,7 @@ import React from 'react';
 import { Article, Avatar, AvatarText, AvatarTextWrapper, AvatarTitle, AvatarWrapper, Container, Title, Wave, Wrapper } from './styledAbout';
 import upWave from '../../../common/Images/upWave.svg';
 import avatar from '../../../common/Images/avatar.svg';
+import bottomWave from '../../../common/Images/bottomWave.svg';
 
 export const About = () => {
     return (
@@ -38,8 +39,8 @@ export const About = () => {
                         <Avatar src={avatar} />
                     </AvatarWrapper>
                 </Container>
-
             </Article>
+            <Wave src={bottomWave} />
         </Wrapper>
     );
 };
