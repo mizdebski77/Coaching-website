@@ -32,7 +32,7 @@ export const TitleParagraph = styled.p`
 export const TitleLink = styled.a`
     background: ${({ theme }) => theme.color.fontColor};
     text-align: center;
-    padding: 16px 32px;
+    padding: 14px 40px;
     font-size: 24px;
     color: white;
     border-radius: 20px;

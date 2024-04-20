@@ -51,7 +51,7 @@ export const TileText = styled.p`
 `;
 
 export const TilePriceWrapper = styled.span`
-    background: ${({ theme }) => theme.color.secondColor};
+    background: ${({ theme }) => theme.color.mainColor};
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -68,4 +68,6 @@ export const TilePriceWrapper = styled.span`
 export const TilePrice = styled.span`
     font-size: 24px;
     color: black;
+    font-weight: medium;
+    letter-spacing: 1px;
 `;
