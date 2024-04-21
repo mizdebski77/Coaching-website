@@ -4,6 +4,7 @@ import image from '../../../common/Images/header.svg';
 import useInViewAnimation from '../../../core/useInView';
 import { motion } from 'framer-motion';
 import { variantButton, variantOpacity, variantTitle } from '../../../core/arrays';
+import AnimatedElement from '../AnimatedElements';
 
 export const Header = () => {
     const { animation, ref } = useInViewAnimation(0.2);
@@ -11,29 +12,34 @@ export const Header = () => {
     return (
         <Wrapper id="home" ref={ref} >
             <TextWrapper>
-                <Title
-                    as={motion.h1}
-                    variants={variantTitle}
-                    initial="hidden"
-                    animate={animation}
-                >
-                    <TitleSpan>
-                        Jakieś hasło
-                    </TitleSpan>
-                    <TitleParagraph>
-                        dłuższe bądź krótsze
-                    </TitleParagraph>
-                </Title>
+                <AnimatedElement left>
+                    <Title >
+                        <TitleSpan>
+                            Jakieś hasło
+                        </TitleSpan>
+                        <TitleParagraph>
+                            dłuższe bądź krótsze
+                        </TitleParagraph>
+                    </Title>
+                </AnimatedElement>
 
 
-                <TitleLink href='http://localhost:3000/' >
-                    Napisz do nas!
-                </TitleLink>
 
-            </TextWrapper>
+                <AnimatedElement right>
+                    <TitleLink href='http://localhost:3000/' >
+                        Napisz do nas!
+                    </TitleLink>
+                </AnimatedElement>
 
-            <Image src={image} alt='Header image' />
-        </Wrapper>
+
+            </TextWrapper >
+
+            <AnimatedElement right>
+                <Image src={image} alt='Header image' />
+            </AnimatedElement>
+
+
+        </Wrapper >
     );
 };
 

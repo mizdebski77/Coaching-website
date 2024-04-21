@@ -46,6 +46,7 @@ export const TitleLink = styled.a`
     border-radius: 20px;
     margin: 0 auto;
     text-decoration: none;
+    z-index: 99;
     cursor: pointer;
     transition: 0.3s;
 
