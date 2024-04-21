@@ -10,9 +10,9 @@ export const Home = () => {
         <>
             {/* <Header /> */}
             {/* <About /> */}
-            <Services />
-            {/* <Contact />
-            <Footer /> */}
+            {/* <Services /> */}
+            <Contact />
+            {/* <Footer /> */}
         </>
     );
 };

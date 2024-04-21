@@ -3,6 +3,10 @@ import { css, styled } from "styled-components";
 export const Wrapper = styled.section`
     margin-top: -140px;
     display: grid;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
+        margin:  0 auto;
+    };
 `;
 
 export const SVG = styled.img <{ bottom?: boolean, top?: boolean }>`
@@ -19,7 +23,18 @@ export const SVG = styled.img <{ bottom?: boolean, top?: boolean }>`
         top: auto;
         max-width: 80px;
         opacity: 0.2;
+
+        @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+            display: none;
+        };
     `};
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        max-width:40px;
+        top:10px;
+        left:20px;
+        opacity:0.6;
+    };
 `;
 
 
@@ -31,6 +46,10 @@ export const Article = styled.article`
     justify-content: center;
     align-items: center;
     position: relative;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        padding: 40px 20px;
+    };
 `;
 
 export const Title = styled.h4`
@@ -40,6 +59,10 @@ export const Title = styled.h4`
     text-align: center;
     color: ${({ theme }) => theme.color.fontColor};
     margin: 0;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        font-size: 28px;
+    };
 `;
 
 export const Wave = styled.img`
@@ -51,6 +74,11 @@ export const LinkWrapper = styled.div`
     gap: 40px;
     margin-top: 40px;
     align-items: center;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
+        display: grid;
+        gap: 20px;
+    };
 `;
 
 export const Span = styled.span`
@@ -59,6 +87,10 @@ export const Span = styled.span`
     font-weight: lighter;
     text-align: center;
     color: ${({ theme }) => theme.color.fontColor};
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+       font-size: 24px;
+    };
 `;
 
 export const Link = styled.a`
@@ -70,6 +102,7 @@ export const Link = styled.a`
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
+    text-align: center;
 
     &:hover {
         opacity: 0.8;
@@ -77,6 +110,11 @@ export const Link = styled.a`
 
     &:active {
         opacity: 0.6;
-    }
+    };
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        font-size: 16px;
+        padding: 12px 20px;
+    };
 `;
 
