@@ -53,7 +53,7 @@ export const NavLink = styled(Link)`
     cursor: pointer;
     transition: 0.5s;
     font-size: 20px;
-
+  
 
     &:hover {
         transform: translateY(-5px);
@@ -72,7 +72,7 @@ export const NavLink = styled(Link)`
       font-weight: normal;
       padding: 4px;
       font-size: 16px;
-      width: 80%;
+      width: 60%;
       margin: 0 auto;
       border-bottom: 1px solid white;
     };
