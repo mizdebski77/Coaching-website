@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Coaching-website/static/js/main.cc85ab26.js",
+    "main.js": "/Coaching-website/static/js/main.b6114359.js",
     "static/media/header.svg": "/Coaching-website/static/media/header.6ad878d519908bc38fa0943f27727851.svg",
     "static/media/avatar.svg": "/Coaching-website/static/media/avatar.31cef93cbc63d1acfe0a3bca5cbda72a.svg",
     "static/media/circles-oval-svgrepo-com.svg": "/Coaching-website/static/media/circles-oval-svgrepo-com.55d9703abc7434c437c24a4bcd45eeb1.svg",
@@ -16,9 +16,9 @@
     "static/media/leftArrow.svg": "/Coaching-website/static/media/leftArrow.df4ce4047dcff91f425f41e8aa97dee6.svg",
     "static/media/rightArrow.svg": "/Coaching-website/static/media/rightArrow.2d09ce6abfe5b96570a2722ea02b2f5f.svg",
     "static/media/SemiCirclesOrange.svg": "/Coaching-website/static/media/SemiCirclesOrange.b7f325bc765a051fc7ec9b958853f65d.svg",
-    "main.cc85ab26.js.map": "/Coaching-website/static/js/main.cc85ab26.js.map"
+    "main.b6114359.js.map": "/Coaching-website/static/js/main.b6114359.js.map"
   },
   "entrypoints": [
-    "static/js/main.cc85ab26.js"
+    "static/js/main.b6114359.js"
   ]
 }
