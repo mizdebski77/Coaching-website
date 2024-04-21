@@ -3,7 +3,9 @@ import { Article, Avatar, AvatarText, AvatarTextWrapper, AvatarTitle, AvatarWrap
 import upWave from '../../../common/Images/upWave.svg';
 import avatar from '../../../common/Images/avatar.svg';
 import bottomWave from '../../../common/Images/bottomWave.svg';
-import circle from '../../../common/Images/pattern-circle.svg';
+import circle from '../../../common/Images/leftArrow.svg';
+import arrow from '../../../common/Images/rightArrow.svg';
+import lefArrow from '../../../common/Images/SemiCirclesOrange.svg';
 
 export const About = () => {
     return (
@@ -14,9 +16,11 @@ export const About = () => {
 
                 <Container>
                     <Title> O Nas</Title>
-                    <Circle src={circle} />
-                    <Circle src={circle} bottom />
-                    <Circle src={circle} top />
+                    <Circle src={lefArrow} />
+                    <Circle src={lefArrow} bottom />
+                    <Circle src={arrow} top />
+                    <Circle src={circle} bottomLeft />
+
                     <AvatarWrapper>
                         <Avatar src={avatar} />
 

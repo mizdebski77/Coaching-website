@@ -14,24 +14,33 @@ export const Article = styled.article`
 
 `;
 
-export const Circle = styled.img <{ bottom?: boolean, top?: boolean }>`
+export const Circle = styled.img <{ bottom?: boolean, top?: boolean, bottomLeft?: boolean }>`
     position: absolute;
-    top: 340px;
-    left: -40px;
-    opacity: 0.9;
+    top: -40px;
+    left: -140px;
+    opacity: 0.3;
 
     ${({ bottom }) => bottom && css`
-        top: 940px;
+        top: auto;
+        bottom: -180px;
         right: 20px;
-        opacity: 0.5;
+        opacity: 0.7;
         left: auto;
-        right: -40px;
+        right: -120px;
     `};
 
     ${({ top }) => top && css`
         top: 40px;
         left: auto;
         right: -200px;
+        opacity: 0.2;
+    `};
+
+    ${({ bottomLeft }) => bottomLeft && css`
+        top: auto;
+        bottom: -20px;
+        opacity: 0.2;
+        right: -120px;
     `};
 `;
 
