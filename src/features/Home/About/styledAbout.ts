@@ -1,7 +1,7 @@
 import { css, styled } from "styled-components";
 
 export const Wrapper = styled.section`
-    margin-top: -280px;
+    margin-top: -80px;
     display: grid;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
