@@ -22,6 +22,10 @@ export const SVG = styled.img <{ bottom?: boolean, top?: boolean }>`
         top: auto;
         max-width: 156px;
         opacity: 0.7;
+
+        @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+            display: none;
+        };
     `};
 `;
 

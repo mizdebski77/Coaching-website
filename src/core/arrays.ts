@@ -45,3 +45,44 @@ export const ServicesData = [
     { title: 'Usłgua', text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation', price: '1000 zł' },
     { title: 'Usłgua', text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation', price: '1000 zł' },
 ];
+
+
+export const variantOpacity = {
+    hidden: {
+        opacity: 0,
+        y: '40px'
+    },
+    visible: {
+        opacity: 1,
+        y: '0px'
+    }
+};
+
+export const variantTitle = {
+    hidden: {
+        opacity: 0,
+        y: '-10vh'
+    },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            type: "spring",
+        }
+    }
+};
+
+export const variantButton = {
+    hidden: {
+        opacity: 0,
+        x: '-100vh'
+    },
+    visible: {
+        opacity: 1,
+        x: 0,
+        transition: {
+            delay: 0.4,
+            type: "spring",
+        }
+    }
+};
