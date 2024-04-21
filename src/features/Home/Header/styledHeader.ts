@@ -43,7 +43,7 @@ export const TitleLink = styled.a`
     padding: 14px 40px;
     font-size: 24px;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0 auto;
     text-decoration: none;
     z-index: 99;
@@ -51,8 +51,7 @@ export const TitleLink = styled.a`
     transition: 0.3s;
 
     &:hover {
-        opacity: 0.8;
-        transform: scale(1.02);
+        opacity: 0.7;
     };
 
     &:active {

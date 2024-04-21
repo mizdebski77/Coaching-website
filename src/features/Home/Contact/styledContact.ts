@@ -95,18 +95,19 @@ export const Span = styled.span`
 
 export const Link = styled.a`
     background: ${({ theme }) => theme.color.fontColor};
-    color: white;
+    text-align: center;
+    padding: 14px 40px;
     font-size: 24px;
-    padding: 16px 80px;
+    color: white;
+    border-radius: 10px;
+    margin: 0 auto;
     text-decoration: none;
-    border-radius: 8px;
+    z-index: 99;
     cursor: pointer;
     transition: 0.3s;
-    text-align: center;
 
     &:hover {
-        opacity: 0.8;
-        transform: scale(1.01);
+        opacity: 0.7;
     };
 
     &:active {
@@ -115,7 +116,7 @@ export const Link = styled.a`
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         font-size: 16px;
-        padding: 12px 20px;
+        padding: 8px 20px;
     };
 `;
 
