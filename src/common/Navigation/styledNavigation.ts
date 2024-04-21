@@ -54,6 +54,7 @@ export const NavLink = styled(Link)`
     transition: 0.5s;
     font-size: 20px;
 
+
     &:hover {
         transform: translateY(-5px);
         color: ${({ theme }) => theme.color.fontColor};
@@ -71,6 +72,9 @@ export const NavLink = styled(Link)`
       font-weight: normal;
       padding: 4px;
       font-size: 16px;
+      width: 80%;
+      margin: 0 auto;
+      border-bottom: 1px solid white;
     };
 `;
 
@@ -86,7 +90,7 @@ export const MobileNavbar = styled.div`
 `;
 
 export const MobileNavbarWrapper = styled.div`
-    background: ${({ theme }) => theme.color.fontColor};;
+    background: rgba(243, 154, 19, 0.97);
     position: fixed;
     width: 100%;
     z-index: -1;
@@ -99,7 +103,8 @@ export const MobileNavbarWrapper = styled.div`
 
 
 export const MobileLinksWrapper = styled.div`
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 20px;
     padding: 24px;
