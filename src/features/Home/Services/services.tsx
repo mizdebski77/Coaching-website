@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, SVG, Tile, TilePrice, TilePriceWrapper, TileText, TileTitle, TileWrapper, Title, Wrapper } from './styledServices';
-import { ServicesData, variantOpacity } from '../../../core/arrays';
+import { ServicesData } from '../../../core/arrays';
 import circles from '../../../common/Images/circles-oval-svgrepo-com.svg';
 import AnimatedElement from '../AnimatedElements';
 
