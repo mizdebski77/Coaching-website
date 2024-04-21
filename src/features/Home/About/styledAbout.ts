@@ -1,7 +1,7 @@
 import { css, styled } from "styled-components";
 
 export const Wrapper = styled.section`
-    margin-top: -80px;
+    margin-top: -280px;
     display: grid;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
@@ -81,7 +81,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h2`
-    font-size: 62px;
+    font-size: 68px;
     letter-spacing: 4px;
     font-weight: medium;
     text-align: center;

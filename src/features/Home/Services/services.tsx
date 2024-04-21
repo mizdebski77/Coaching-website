@@ -4,6 +4,7 @@ import { ServicesData, variantOpacity } from '../../../core/arrays';
 import circles from '../../../common/Images/circles-oval-svgrepo-com.svg';
 import useInViewAnimation from '../../../core/useInView';
 import { motion } from 'framer-motion';
+import AnimatedElement from '../AnimatedElements';
 
 export const Services = () => {
 
@@ -11,7 +12,11 @@ export const Services = () => {
 
     return (
         <Wrapper id="services">
-            <Title>Nasze Usługi</Title>
+            <AnimatedElement bottom>
+                <Title>
+                    Nasze usługi
+                </Title>
+            </AnimatedElement>
             <SVG src={circles} />
             <SVG src={circles} bottom />
 

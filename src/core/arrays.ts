@@ -50,11 +50,10 @@ export const ServicesData = [
 export const variantOpacity = {
     hidden: {
         opacity: 0,
-        y: '40px'
     },
     visible: {
         opacity: 1,
-        y: '0px'
+        delay: 0.4,
     }
 };
 
@@ -76,6 +75,21 @@ export const variantButton = {
     hidden: {
         opacity: 0,
         x: '-100vh'
+    },
+    visible: {
+        opacity: 1,
+        x: 0,
+        transition: {
+            delay: 0.4,
+            type: "spring",
+        }
+    }
+};
+
+export const rightVariant = {
+    hidden: {
+        opacity: 0,
+        x: '40vh'
     },
     visible: {
         opacity: 1,

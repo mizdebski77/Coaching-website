@@ -6,49 +6,78 @@ import bottomWave from '../../../common/Images/bottomWave.svg';
 import circle from '../../../common/Images/leftArrow.svg';
 import arrow from '../../../common/Images/rightArrow.svg';
 import lefArrow from '../../../common/Images/SemiCirclesOrange.svg';
+import { delay, motion } from 'framer-motion';
+import useInViewAnimation from '../../../core/useInView';
+import { rightVariant, variantButton, variantOpacity, variantTitle } from '../../../core/arrays';
+import AnimatedElement from '../AnimatedElements';
 
 export const About = () => {
+
     return (
-        <Wrapper id="about">
+        <Wrapper id="about" >
             <Wave src={upWave} />
             <Article>
                 <Container>
-                    <Title> O Nas</Title>
+                    <AnimatedElement bottom>
+                        <Title>
+                            O Nas
+                        </Title>
+                    </AnimatedElement>
+
+
                     <Circle src={lefArrow} />
                     <Circle src={lefArrow} bottom />
                     <Circle src={arrow} top />
                     <Circle src={circle} bottomLeft />
 
                     <AvatarWrapper>
-                        <Avatar src={avatar} />
+                        <AnimatedElement left>
+                            <Avatar src={avatar} />
+                        </AnimatedElement>
 
-                        <AvatarTextWrapper>
-                            <AvatarTitle>Artur Surmik</AvatarTitle>
-                            <AvatarText>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
-                            </AvatarText>
+                        <AvatarTextWrapper >
+                            <AnimatedElement left>
+                                <AvatarTitle>
+                                    Artur Surmik
+                                </AvatarTitle>
+                            </AnimatedElement>
+
+                            <AnimatedElement bottom>
+                                <AvatarText>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
+                                </AvatarText>
+                            </AnimatedElement>
+
                         </AvatarTextWrapper>
 
                     </AvatarWrapper>
 
                     <AvatarWrapper reverse >
-                        <AvatarTextWrapper>
-                            <AvatarTitle>Artur Surmik</AvatarTitle>
-                            <AvatarText>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
-                            </AvatarText>
+                        <AvatarTextWrapper >
+                            <AnimatedElement left>
+                                <AvatarTitle>
+                                    Artur Surmik
+                                </AvatarTitle>
+                            </AnimatedElement>
+                            <AnimatedElement bottom>
+                                <AvatarText>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
+                                </AvatarText>
+                            </AnimatedElement>
                         </AvatarTextWrapper>
 
-                        <Avatar src={avatar} />
+                        <AnimatedElement right>
+                            <Avatar src={avatar} />
+                        </AnimatedElement>
                     </AvatarWrapper>
                 </Container>
             </Article>
             <Wave src={bottomWave} />
-        </Wrapper>
+        </Wrapper >
     );
 };
 
