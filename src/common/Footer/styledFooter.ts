@@ -14,7 +14,7 @@ export const Wrapper = styled.footer`
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
         display: grid;
         gap: 56px;
-        padding: 10px;
+        padding: 20px;
         justify-content: center;
         min-height: 480px;
     };

@@ -77,7 +77,7 @@ export const LinkWrapper = styled.div`
 
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
         display: grid;
-        gap: 20px;
+        gap: 28px;
     };
 `;
 

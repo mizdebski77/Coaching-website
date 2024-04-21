@@ -32,12 +32,12 @@ export const Circle = styled.img <{ bottom?: boolean, top?: boolean, bottomLeft?
         top: auto;
         bottom: -180px;
         right: 20px;
-        opacity: 0.7;
+        opacity: 0.12;
         left: auto;
-        right: -120px;
+        right: 20px;
 
         @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
-            display: none;
+            right: 120px;
         };
     `};
 
@@ -47,7 +47,11 @@ export const Circle = styled.img <{ bottom?: boolean, top?: boolean, bottomLeft?
         right: -200px;
         opacity: 0.2;
 
-        @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
+        @media (max-width: ${({ theme }) => theme.breakPoint.firstBreakPoint}px){
+            right: 10px;
+        };
+
+        @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
             display: none;
         };
     `};
