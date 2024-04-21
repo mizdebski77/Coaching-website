@@ -30,8 +30,8 @@ export const SVG = styled.img <{ bottom?: boolean, top?: boolean }>`
     `};
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        max-width:40px;
-        top:10px;
+        max-width: 40px;
+        top:-10px;
         left:20px;
         opacity:0.6;
     };

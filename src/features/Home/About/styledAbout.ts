@@ -24,7 +24,8 @@ export const Circle = styled.img <{ bottom?: boolean, top?: boolean, bottomLeft?
     opacity: 0.3;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        right: 0px;
+        left: 0px;
+        top: 0px;
     };
 
     ${({ bottom }) => bottom && css`
@@ -35,9 +36,8 @@ export const Circle = styled.img <{ bottom?: boolean, top?: boolean, bottomLeft?
         left: auto;
         right: -120px;
 
-        @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-            right: 20px;
-            bottom: 400px;
+        @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
+            display: none;
         };
     `};
 
@@ -46,6 +46,10 @@ export const Circle = styled.img <{ bottom?: boolean, top?: boolean, bottomLeft?
         left: auto;
         right: -200px;
         opacity: 0.2;
+
+        @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
+            display: none;
+        };
     `};
 
     ${({ bottomLeft }) => bottomLeft && css`
@@ -53,9 +57,13 @@ export const Circle = styled.img <{ bottom?: boolean, top?: boolean, bottomLeft?
         bottom: -20px;
         opacity: 0.2;
         right: -120px;
+
+        @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
+            display: none;
+        };
     `};
 
-    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+    @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
         max-width:120px;
     };
 `;
@@ -66,6 +74,10 @@ export const Container = styled.div`
     display: grid;
     gap: 40px;
     position: relative;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        gap: 10px;
+    };
 `;
 
 export const Title = styled.h2`
@@ -77,7 +89,7 @@ export const Title = styled.h2`
     margin: 0;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        font-size: 24px;
+        font-size: 28px;
     };
 `;
 
@@ -94,12 +106,12 @@ export const AvatarWrapper = styled.div <{ reverse?: boolean }>`
         @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
             display: flex;
             flex-direction: column-reverse;
-    };
+        };
     `};
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         grid-template-columns:1fr;
-        padding: 10px;
+        padding: 20px;
         gap:20px;
     };
 `;
@@ -110,7 +122,7 @@ export const AvatarTitle = styled.span`
     color: ${({ theme }) => theme.color.fontSecond};
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        font-size: 20px;
+        font-size: 24px;
     };
 `;
 
@@ -121,7 +133,7 @@ export const Avatar = styled.img`
     z-index: 10;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        max-width: 180px;
+        max-width: 140px;
     };
 `;
 

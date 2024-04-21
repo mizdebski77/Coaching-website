@@ -14,10 +14,10 @@ export const About = () => {
             <Article>
                 <Container>
                     <Title> O Nas</Title>
-                    {/* <Circle src={lefArrow} />
+                    <Circle src={lefArrow} />
                     <Circle src={lefArrow} bottom />
                     <Circle src={arrow} top />
-                    <Circle src={circle} bottomLeft /> */}
+                    <Circle src={circle} bottomLeft />
 
                     <AvatarWrapper>
                         <Avatar src={avatar} />

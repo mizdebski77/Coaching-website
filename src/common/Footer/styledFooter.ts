@@ -32,7 +32,8 @@ export const Logo = styled(Link)`
     font-weight: normal;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        font-size: 24px;
+        font-size: 28px;
+        text-align: center;
     };
 `;
 
@@ -46,6 +47,10 @@ export const LinksWrapper = styled.div`
     justify-content: center;
     gap: 20px;
     align-items: center;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        gap: 10px;
+    };
 `;
 
 export const Circles = styled.img`
@@ -67,7 +72,6 @@ export const NavLink = styled(Link)`
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         text-align: center;
-        color: white;
         font-weight: normal;
         padding: 4px;
         font-size: 16px;
