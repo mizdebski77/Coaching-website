@@ -6,7 +6,7 @@ import { Footer } from '../common/Footer/footer';
 function App() {
   return (
     <>
-      {/* <Navigation /> */}
+      <Navigation />
       <Home />
       <Footer />
     </>

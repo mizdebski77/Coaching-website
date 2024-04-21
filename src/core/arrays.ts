@@ -1,8 +1,8 @@
 export const LinksData = [
-    { to: "home", text: "Strona Główna" },
-    { to: "about", text: "O Nas" },
-    { to: "services", text: "Usługi" },
-    { to: "contact", text: "Kontakt" },
+    { to: "home", text: "Strona Główna", offset: -100 },
+    { to: "about", text: "O Nas", offset: 120 },
+    { to: "services", text: "Usługi", offset: -120 },
+    { to: "contact", text: "Kontakt", offset: 120 },
 ];
 
 export const mobileNavAnimation = {

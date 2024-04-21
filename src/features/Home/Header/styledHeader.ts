@@ -47,6 +47,7 @@ export const TitleLink = styled.a`
     margin: 0 auto;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
 
     &:hover {
         opacity: 0.8;

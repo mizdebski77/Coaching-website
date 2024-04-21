@@ -9,7 +9,7 @@ import lefArrow from '../../../common/Images/SemiCirclesOrange.svg';
 
 export const About = () => {
     return (
-        <Wrapper>
+        <Wrapper id="about">
             <Wave src={upWave} />
             <Article>
                 <Container>

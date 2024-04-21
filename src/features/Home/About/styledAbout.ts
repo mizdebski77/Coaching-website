@@ -130,7 +130,7 @@ export const Avatar = styled.img`
     max-width: 320px;
     width: 100%;
     margin: 0 auto;
-    z-index: 10;
+    z-index: 9;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         max-width: 140px;

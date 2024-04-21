@@ -106,7 +106,8 @@ export const Link = styled.a`
 
     &:hover {
         opacity: 0.8;
-    }
+        transform: scale(1.01);
+    };
 
     &:active {
         opacity: 0.6;

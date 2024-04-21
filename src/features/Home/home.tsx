@@ -7,7 +7,7 @@ import { Contact } from './Contact/contact';
 export const Home = () => {
     return (
         <>
-            <Header />
+            <Header  />
             <About />
             <Services />
             <Contact />

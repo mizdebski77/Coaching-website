@@ -4,7 +4,7 @@ import image from '../../../common/Images/header.svg';
 
 export const Header = () => {
     return (
-        <Wrapper>
+        <Wrapper id="home">
             <TextWrapper>
                 <Title>
                     <TitleSpan>
@@ -14,7 +14,7 @@ export const Header = () => {
                         dłuższe bądź krótsze
                     </TitleParagraph>
                 </Title>
-                <TitleLink>
+                <TitleLink href='http://localhost:3000/'>
                     Napisz do nas!
                 </TitleLink>
             </TextWrapper>

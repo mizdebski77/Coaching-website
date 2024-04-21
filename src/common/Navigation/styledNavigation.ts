@@ -2,7 +2,9 @@ import { styled } from "styled-components";
 import { Link } from "react-scroll";
 
 export const Wrapper = styled.nav`
-
+  position: sticky;
+  z-index: 10; 
+  top: 0;
 `;
 
 export const Container = styled.div`
@@ -11,8 +13,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 28px 80px;
-  position: sticky;
-  z-index: 10; 
   top:0;
   background: ${({ theme }) => theme.color.mainColor};
   transition: 0.3s;
@@ -48,8 +48,6 @@ export const LinksWrapper = styled.div`
   };
 `;
 
-const activeClassName = "active";
-
 export const NavLink = styled(Link)`
     color: black;
     cursor: pointer;
@@ -66,14 +64,6 @@ export const NavLink = styled(Link)`
         }
     };
 
-    &.${activeClassName} {
-        color: ${({ theme }) => theme.color.fontColor};
-        border-bottom: 1px solid ${({ theme }) => theme.color.fontColor};
-
-        @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
-          border-bottom: 1px solid white;
-        }
-    };
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
       text-align: center;
@@ -99,7 +89,7 @@ export const MobileNavbarWrapper = styled.div`
     background: ${({ theme }) => theme.color.fontColor};;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: -1;
     min-height: 200px;
 
     @media (min-width: ${({ theme }) => theme.breakPoint.mobileMax}px){

@@ -5,7 +5,7 @@ import circles from '../../../common/Images/circles-oval-svgrepo-com.svg';
 
 export const Services = () => {
     return (
-        <Wrapper>
+        <Wrapper  id="services">
             <Title>Nasze Usługi</Title>
             {/* <SVG src={circles} />
             <SVG src={circles} bottom /> */}

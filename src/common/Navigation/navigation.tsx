@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, LinksWrapper, Logo, LogoSpan, MobileLinksWrapper, MobileNavbar, MobileNavbarWrapper, NavLink, Wrapper } from './styledNavigation';
-import { LinksData, MobileLinksWrapperAnimation,  mobileNavAnimation } from '../../core/arrays';
+import { LinksData, MobileLinksWrapperAnimation, mobileNavAnimation } from '../../core/arrays';
 import { AnimatePresence, motion } from 'framer-motion';
 import Hamburger from 'hamburger-react';
 
@@ -28,6 +28,7 @@ export const Navigation = () => {
                     {LinksData.map((link, index) => (
                         <NavLink
                             key={index}
+                            offset={link.offset}
                             spy={true}
                             to={link.to}
                             smooth={true}

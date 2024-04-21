@@ -5,7 +5,7 @@ import contact from '../../../common/Images/contact.svg';
 
 export const Contact = () => {
     return (
-        <Wrapper>
+        <Wrapper id="contact">
             <Wave src={wave} />
             <Article>
                 <SVG src={contact} />
