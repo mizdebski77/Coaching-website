@@ -7,8 +7,8 @@ export const Services = () => {
     return (
         <Wrapper>
             <Title>Nasze Usługi</Title>
-            <SVG src={circles} />
-            <SVG src={circles} bottom />
+            {/* <SVG src={circles} />
+            <SVG src={circles} bottom /> */}
 
             <Container>
                 {ServicesData.map((service) => (

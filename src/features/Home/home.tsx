@@ -8,10 +8,10 @@ import { Footer } from '../../common/Footer/footer';
 export const Home = () => {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             {/* <About /> */}
-            {/* <Services />
-            <Contact />
+            <Services />
+            {/* <Contact />
             <Footer /> */}
         </>
     );

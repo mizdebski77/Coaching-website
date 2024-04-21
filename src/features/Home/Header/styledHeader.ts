@@ -10,7 +10,6 @@ export const Wrapper = styled.section`
     padding: 40px 10px;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        padding: 20px 10px;
         gap: 20px;
     };
 `;

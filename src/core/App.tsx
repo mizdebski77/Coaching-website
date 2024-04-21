@@ -5,7 +5,7 @@ import { Home } from '../features/Home/home';
 function App() {
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <Home />
     </>
 
