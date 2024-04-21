@@ -9,10 +9,10 @@ export const Home = () => {
     return (
         <>
             <Header />
-            <About />
-            <Services />
+            {/* <About /> */}
+            {/* <Services />
             <Contact />
-            <Footer />
+            <Footer /> */}
         </>
     );
 };

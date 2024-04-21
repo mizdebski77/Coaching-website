@@ -8,6 +8,11 @@ export const Wrapper = styled.section`
     align-items: center;
     justify-content: center;
     padding: 40px 10px;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        padding: 20px 10px;
+        gap: 20px;
+    };
 `;
 
 export const TextWrapper = styled.div`
@@ -19,6 +24,10 @@ export const Title = styled.h1`
     font-weight: normal;
     font-size: 80px;
     text-align: center;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        font-size: 28px;
+    };
 `;
 
 export const TitleSpan = styled.span`
@@ -47,7 +56,12 @@ export const TitleLink = styled.a`
 
     &:active {
         opacity: 0.6;
-    }
+    };
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        font-size: 16px;
+        padding: 8px 20px;
+    };
 `;
 
 export const ImageWrapper = styled.div`
@@ -55,4 +69,6 @@ export const ImageWrapper = styled.div`
 
 export const Image = styled.img`
     margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
 `;

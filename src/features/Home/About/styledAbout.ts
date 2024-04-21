@@ -72,6 +72,9 @@ export const AvatarWrapper = styled.div <{ reverse?: boolean }>`
         grid-template-columns: 1.5fr 1fr;
     `};
 
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        grid-template-columns:1fr;
+    };
 `;
 
 export const AvatarTitle = styled.span`
