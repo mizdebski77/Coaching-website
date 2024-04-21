@@ -1,16 +1,12 @@
 import React from 'react';
 import { Image, TextWrapper, Title, TitleLink, TitleParagraph, TitleSpan, Wrapper } from './styledHeader';
 import image from '../../../common/Images/header.svg';
-import useInViewAnimation from '../../../core/useInView';
-import { motion } from 'framer-motion';
-import { variantButton, variantOpacity, variantTitle } from '../../../core/arrays';
 import AnimatedElement from '../AnimatedElements';
 
 export const Header = () => {
-    const { animation, ref } = useInViewAnimation(0.2);
 
     return (
-        <Wrapper id="home" ref={ref} >
+        <Wrapper id="home"  >
             <TextWrapper>
                 <AnimatedElement left>
                     <Title >

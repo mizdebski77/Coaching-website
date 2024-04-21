@@ -6,9 +6,6 @@ import bottomWave from '../../../common/Images/bottomWave.svg';
 import circle from '../../../common/Images/leftArrow.svg';
 import arrow from '../../../common/Images/rightArrow.svg';
 import lefArrow from '../../../common/Images/SemiCirclesOrange.svg';
-import { delay, motion } from 'framer-motion';
-import useInViewAnimation from '../../../core/useInView';
-import { rightVariant, variantButton, variantOpacity, variantTitle } from '../../../core/arrays';
 import AnimatedElement from '../AnimatedElements';
 
 export const About = () => {
