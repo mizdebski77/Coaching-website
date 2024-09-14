@@ -36,6 +36,10 @@ export const Logo = styled(Link)`
     font-size: 44px;
     cursor: pointer;
     font-weight: normal;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         font-size: 28px;
@@ -44,8 +48,14 @@ export const Logo = styled(Link)`
 `;
 
 
+export const LogoImg = styled.img`
+    max-width: 120px;
+    margin: auto;
+`;
+
 export const LogoSpan = styled.span`
     color: ${({ theme }) => theme.color.fontSecond};
+
 `;
 
 export const LinksWrapper = styled.div`
@@ -137,7 +147,7 @@ export const Image = styled.img`
 
 export const RealisationWrapper = styled.div`
     border-top: 2px solid white;
-    padding: 64px 40px;
+    padding: 40px;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -147,7 +157,7 @@ export const RealisationWrapper = styled.div`
 `;
 
 export const Span = styled.span`
-    font-size: 24px;
+    font-size: 20px;
     margin: 0 auto;
 `;
 

@@ -41,9 +41,8 @@ export const MobileLinksWrapperAnimation = {
 };
 
 export const ServicesData = [
-    { title: 'Usłgua', text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation', price: '1000 zł' },
-    { title: 'Usłgua', text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation', price: '1000 zł' },
-    { title: 'Usłgua', text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation', price: '1000 zł' },
+    { title: 'Szkolenie biznesowe', text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation', price: 'Wycena indywidualna - skontaktuj się z nami' },
+    { title: 'Szkolenie indywidualne', text: 'Szkolenie przede wszystkim adresowane do Liderów, Managerów, Specjalistów, Kierowników i innych osób chcących rozwijać swoje umiejętności z zakresu zarządzania zespołem i projektami. Każde szkolenie kończy się wręczeniem certyfikatów.', price: '1000 zł' },
 ];
 
 

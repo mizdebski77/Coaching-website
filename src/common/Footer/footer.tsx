@@ -1,10 +1,11 @@
 import React from 'react';
-import { Circles, Container, FooterTitle, Image, LinksWrapper, Logo, LogoSpan, Name, NavLink, RealisationWrapper, SVGLink, SVGLinks, Socials, Span, Wrapper } from './styledFooter';
+import { Circles, Container, FooterTitle, Image, LinksWrapper, Logo, LogoImg, LogoSpan, Name, NavLink, RealisationWrapper, SVGLink, SVGLinks, Socials, Span, Wrapper } from './styledFooter';
 import { LinksData } from '../../core/arrays';
 import phone from '../Images/phone.svg';
 import mail from '../Images/mail.svg';
 import facebook from '../Images/facebook.svg';
 import circle from '../Images/SemiCircles.svg';
+import logo from '../Images/OP Png.png';
 
 export const Footer = () => {
     return (
@@ -15,7 +16,8 @@ export const Footer = () => {
                     offset={-70}
                     smooth={true}
                     duration={1500}>
-                    <LogoSpan>Logo</LogoSpan> Firmy
+                    <LogoImg src={logo} alt='Logo' />
+                    <div> <LogoSpan>Optimize</LogoSpan> Performance</div>
                 </Logo>
 
                 <LinksWrapper>

@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Container, LinksWrapper, Logo, LogoSpan, MobileLinksWrapper, MobileNavbar, MobileNavbarWrapper, NavLink, Wrapper } from './styledNavigation';
+import { Container, LinksWrapper, Logo, LogoImg, LogoSpan, MobileLinksWrapper, MobileNavbar, MobileNavbarWrapper, NavLink, Wrapper } from './styledNavigation';
 import { LinksData, MobileLinksWrapperAnimation, mobileNavAnimation } from '../../core/arrays';
 import { AnimatePresence, motion } from 'framer-motion';
 import Hamburger from 'hamburger-react';
+import logo from '../Images/OP Png.png';
 
 export const Navigation = () => {
 
@@ -21,6 +22,8 @@ export const Navigation = () => {
                     offset={-70}
                     smooth={true}
                     duration={1500}>
+
+                    <LogoImg src={logo} alt='logo' />
                     <LogoSpan>Optimize</LogoSpan> Performence
                 </Logo>
 

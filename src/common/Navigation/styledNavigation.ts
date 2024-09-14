@@ -7,12 +7,17 @@ export const Wrapper = styled.nav`
   top: 0;
 `;
 
+export const LogoImg = styled.img`
+    max-width: 64px;
+    margin: auto;
+`;
+
 export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 28px 80px;
+  padding: 24px 64px;
   top:0;
   background: ${({ theme }) => theme.color.mainColor};
   transition: 0.3s;
@@ -27,6 +32,9 @@ export const Logo = styled(Link)`
     font-size: 32px;
     cursor: pointer;
     font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
       font-size: 24px;

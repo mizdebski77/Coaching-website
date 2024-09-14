@@ -44,7 +44,8 @@ export const Title = styled.h3`
 `;
 
 export const Container = styled.article`
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
     padding: 80px 40px;
     gap: 80px;
@@ -99,9 +100,10 @@ export const TileText = styled.p`
 export const TilePriceWrapper = styled.span`
     background: ${({ theme }) => theme.color.mainColor};
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    /* width: 120px;
+    height: 120px; */
     margin: 0 auto;
+    padding: 40px;
     position: absolute;
     display: flex;
     justify-content: center;

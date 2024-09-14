@@ -41,9 +41,9 @@ export const About = () => {
 
                             <AnimatedElement bottom>
                                 <AvatarText>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, mollitia at? Ad iusto deserunt odit aliquid libero iste culpa natus repellendus ea, quo, laudantium exercitationem eveniet dicta assumenda dolores. Eligendi.
+                                    Kierownik zmiany w Amazon Fulfilment Poland oraz doktorant Szkoły Doktorskiej pod kierunkiem Ekonomia i Finanse. Mimo młodego wieku może pochwalić się kilkuletnim doświadczeniem w zarządzaniu małymi i dużymi zespołami. W swojej karierze mocno stawia na optymalizację procesu poprzez standaryzację i eliminację marnotrawstw.
+
+                                    „Swoją przygodę ze szkoleniami i prowadzeniem masowych wydarzeń zacząłem w czasie studenckim, kiedy dzięki ówczesnej pracy w gastronomii miałem okazję prowadzić kilkadziesiąt wydarzeń tematycznych, wewnętrznych szkoleń dla personelu oraz degustacji win z udziałem winiarzy z różnych zakątków Europy.”
                                 </AvatarText>
                             </AnimatedElement>
 
@@ -51,7 +51,7 @@ export const About = () => {
 
                     </AvatarWrapper>
 
-                    <AvatarWrapper reverse >
+                    {/* <AvatarWrapper reverse >
                         <AvatarTextWrapper >
                             <AnimatedElement left>
                                 <AvatarTitle>
@@ -70,7 +70,7 @@ export const About = () => {
                         <AnimatedElement right>
                             <Avatar src={avatar} />
                         </AnimatedElement>
-                    </AvatarWrapper>
+                    </AvatarWrapper> */}
                 </Container>
             </Article>
             <Wave src={bottomWave} />
