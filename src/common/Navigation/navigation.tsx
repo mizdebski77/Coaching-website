@@ -21,7 +21,7 @@ export const Navigation = () => {
                     offset={-70}
                     smooth={true}
                     duration={1500}>
-                    <LogoSpan>Logo</LogoSpan> Firmy
+                    <LogoSpan>Optimize</LogoSpan> Performence
                 </Logo>
 
                 <LinksWrapper>

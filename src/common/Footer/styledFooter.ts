@@ -3,19 +3,25 @@ import { styled } from "styled-components";
 
 export const Wrapper = styled.footer`
     display: flex;
-    width: 100%;
     align-items:center;
     justify-content: space-around;
-    padding: 120px 20px;
-    background: ${({ theme }) => theme.color.fontColor};
-    color: white;
-    position: relative;
+    padding: 64px 40px;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
         display: grid;
         gap: 56px;
+    };
+`;
+
+export const Container = styled.footer`
+    display: grid;
+    width: 100%;
+    color: white;
+    position: relative;
+    background: ${({ theme }) => theme.color.fontColor};
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
         padding: 20px;
-        justify-content: center;
         min-height: 480px;
     };
 
@@ -128,4 +134,32 @@ export const Image = styled.img`
     };
 `;
 
+
+export const RealisationWrapper = styled.div`
+    border-top: 2px solid white;
+    padding: 64px 40px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+`;
+
+export const Span = styled.span`
+    font-size: 24px;
+    margin: 0 auto;
+`;
+
+export const Name = styled.a`
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+`;
 

@@ -4,7 +4,7 @@ export const Wrapper = styled.section`
     max-width: 1400px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     justify-content: center;
     padding: 40px 10px;
@@ -21,7 +21,7 @@ export const TextWrapper = styled.div`
 
 export const Title = styled.h1`
     font-weight: normal;
-    font-size: 80px;
+    font-size: 54px;
     text-align: center;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
@@ -31,6 +31,7 @@ export const Title = styled.h1`
 
 export const TitleSpan = styled.span`
     color: ${({ theme }) => theme.color.fontColor};
+    font-size: 80px;
 `;
 
 export const TitleParagraph = styled.p`

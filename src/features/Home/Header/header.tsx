@@ -11,10 +11,10 @@ export const Header = () => {
                 <AnimatedElement left>
                     <Title >
                         <TitleSpan>
-                            Jakieś hasło
+                            Optimize Performance
                         </TitleSpan>
                         <TitleParagraph>
-                            dłuższe bądź krótsze
+                            Experience IT
                         </TitleParagraph>
                     </Title>
                 </AnimatedElement>
