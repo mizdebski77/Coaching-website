@@ -131,7 +131,7 @@ export const AvatarTitle = styled.span`
 `;
 
 export const Avatar = styled.img`
-    max-width: 320px;
+    max-width: 480px;
     width: 100%;
     margin: 0 auto;
     z-index: 9;

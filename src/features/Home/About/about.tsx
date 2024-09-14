@@ -1,12 +1,12 @@
 import React from 'react';
 import { Article, Avatar, AvatarText, AvatarTextWrapper, AvatarTitle, AvatarWrapper, Circle, Container, Title, Wave, Wrapper } from './styledAbout';
 import upWave from '../../../common/Images/upWave.svg';
-import avatar from '../../../common/Images/avatar.svg';
 import bottomWave from '../../../common/Images/bottomWave.svg';
 import circle from '../../../common/Images/leftArrow.svg';
 import arrow from '../../../common/Images/rightArrow.svg';
 import lefArrow from '../../../common/Images/SemiCirclesOrange.svg';
 import AnimatedElement from '../AnimatedElements';
+import artur from '../../../common/Images/Artur.png';
 
 export const About = () => {
 
@@ -29,7 +29,7 @@ export const About = () => {
 
                     <AvatarWrapper>
                         <AnimatedElement left>
-                            <Avatar src={avatar} />
+                            <Avatar src={artur} />
                         </AnimatedElement>
 
                         <AvatarTextWrapper >
@@ -43,13 +43,23 @@ export const About = () => {
                                 <AvatarText>
                                     Kierownik zmiany w Amazon Fulfilment Poland oraz doktorant Szkoły Doktorskiej pod kierunkiem Ekonomia i Finanse. Mimo młodego wieku może pochwalić się kilkuletnim doświadczeniem w zarządzaniu małymi i dużymi zespołami. W swojej karierze mocno stawia na optymalizację procesu poprzez standaryzację i eliminację marnotrawstw.
 
-                                    „Swoją przygodę ze szkoleniami i prowadzeniem masowych wydarzeń zacząłem w czasie studenckim, kiedy dzięki ówczesnej pracy w gastronomii miałem okazję prowadzić kilkadziesiąt wydarzeń tematycznych, wewnętrznych szkoleń dla personelu oraz degustacji win z udziałem winiarzy z różnych zakątków Europy.”
+                                    <p style={{ fontStyle: 'italic' }}>
+                                        „Swoją przygodę ze szkoleniami i prowadzeniem masowych wydarzeń zacząłem w czasie studenckim, kiedy dzięki ówczesnej pracy w gastronomii miałem okazję prowadzić kilkadziesiąt wydarzeń tematycznych, wewnętrznych szkoleń dla personelu oraz degustacji win z udziałem winiarzy z różnych zakątków Europy.”
+                                    </p>
                                 </AvatarText>
                             </AnimatedElement>
-
                         </AvatarTextWrapper>
 
+
                     </AvatarWrapper>
+                    <p style={{ fontSize: '48px', fontWeight: 'bold', textAlign: 'center', margin: '24px 0', color: '#F39A13' }}>Zakres Tematyczny:</p>
+                    <ul style={{ fontSize: '24px', margin: '0 auto', marginTop: '-24px', }}>
+                        <li>Optymalizacja procesu w myśl zasady Lean Six Sigma</li>
+                        <li>Feedback - skuteczne udzielanie i przyjmowanie informacji zwrotnej</li>
+                        <li>Difficult conversations - prowadzenie trudnych rozmów z pracownikiem</li>
+                        <li>Negocjacje i strategie przywódcze, czyli umiejętne zarządzanie zespołem</li>
+                        <li>Identyfikacja celu i realizacja wyznaczonych KPI</li>
+                    </ul>
 
                     {/* <AvatarWrapper reverse >
                         <AvatarTextWrapper >
