@@ -15,7 +15,7 @@ export const Header = () => {
                             Optimize Performance
                         </TitleSpan>
                         <TitleParagraph>
-                            Experience IT
+                            Experience it
                         </TitleParagraph>
                     </Title>
                 </AnimatedElement>
@@ -27,9 +27,11 @@ export const Header = () => {
 
 
                 <AnimatedElement right>
-                    <TitleLink href='http://localhost:3000/' >
-                        Napisz do nas!
-                    </TitleLink>
+                    <div style={{marginTop: '32px'}}>
+                        <TitleLink href='http://localhost:3000/' >
+                            Napisz do nas!
+                        </TitleLink>
+                    </div>
                 </AnimatedElement>
 
 

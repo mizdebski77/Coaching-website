@@ -6,12 +6,12 @@ import { Contact } from './Contact/contact';
 
 export const Home = () => {
     return (
-        <>
+        <div style={{overflow: 'hidden'}}>
             <Header  />
             <About />
             <Services />
             <Contact />
-        </>
+        </div>
     );
 };
 

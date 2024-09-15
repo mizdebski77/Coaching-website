@@ -1,5 +1,5 @@
 import React from 'react';
-import { Article, Avatar, AvatarText, AvatarTextWrapper, AvatarTitle, AvatarWrapper, Circle, Container, Title, Wave, Wrapper } from './styledAbout';
+import { Article, Avatar, AvatarText, AvatarTextWrapper, AvatarTitle, AvatarWrapper, Circle, Container, List, Title, Topics, Wave, Wrapper } from './styledAbout';
 import upWave from '../../../common/Images/upWave.svg';
 import bottomWave from '../../../common/Images/bottomWave.svg';
 import circle from '../../../common/Images/leftArrow.svg';
@@ -52,14 +52,14 @@ export const About = () => {
 
 
                     </AvatarWrapper>
-                    <p style={{ fontSize: '48px', fontWeight: 'bold', textAlign: 'center', margin: '24px 0', color: '#F39A13' }}>Zakres Tematyczny:</p>
-                    <ul style={{ fontSize: '24px', margin: '0 auto', marginTop: '-24px', }}>
+                    <Topics>Zakres Tematyczny:</Topics>
+                    <List>
                         <li>Optymalizacja procesu w myśl zasady Lean Six Sigma</li>
                         <li>Feedback - skuteczne udzielanie i przyjmowanie informacji zwrotnej</li>
                         <li>Difficult conversations - prowadzenie trudnych rozmów z pracownikiem</li>
                         <li>Negocjacje i strategie przywódcze, czyli umiejętne zarządzanie zespołem</li>
                         <li>Identyfikacja celu i realizacja wyznaczonych KPI</li>
-                    </ul>
+                    </List>
 
                     {/* <AvatarWrapper reverse >
                         <AvatarTextWrapper >
