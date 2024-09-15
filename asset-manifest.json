@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.js": "/Coaching-website/static/js/main.b6114359.js",
-    "static/media/header.svg": "/Coaching-website/static/media/header.6ad878d519908bc38fa0943f27727851.svg",
-    "static/media/avatar.svg": "/Coaching-website/static/media/avatar.31cef93cbc63d1acfe0a3bca5cbda72a.svg",
+    "main.js": "/Coaching-website/static/js/main.85ec3ccd.js",
+    "static/media/Artur.png": "/Coaching-website/static/media/Artur.7f79cf98b8d73a3fc9f5.png",
+    "static/media/bg.jpg": "/Coaching-website/static/media/bg.4aca60453ac86d6a70ab.jpg",
+    "static/media/OP Png.png": "/Coaching-website/static/media/OP Png.992d7dad3d6e6f3ba48c.png",
     "static/media/circles-oval-svgrepo-com.svg": "/Coaching-website/static/media/circles-oval-svgrepo-com.55d9703abc7434c437c24a4bcd45eeb1.svg",
     "static/media/facebook.svg": "/Coaching-website/static/media/facebook.7c1c64c92be330acbbdeda79294e56fa.svg",
     "index.html": "/Coaching-website/index.html",
@@ -16,9 +17,9 @@
     "static/media/leftArrow.svg": "/Coaching-website/static/media/leftArrow.df4ce4047dcff91f425f41e8aa97dee6.svg",
     "static/media/rightArrow.svg": "/Coaching-website/static/media/rightArrow.2d09ce6abfe5b96570a2722ea02b2f5f.svg",
     "static/media/SemiCirclesOrange.svg": "/Coaching-website/static/media/SemiCirclesOrange.b7f325bc765a051fc7ec9b958853f65d.svg",
-    "main.b6114359.js.map": "/Coaching-website/static/js/main.b6114359.js.map"
+    "main.85ec3ccd.js.map": "/Coaching-website/static/js/main.85ec3ccd.js.map"
   },
   "entrypoints": [
-    "static/js/main.b6114359.js"
+    "static/js/main.85ec3ccd.js"
   ]
 }
