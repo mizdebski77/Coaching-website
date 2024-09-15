@@ -55,6 +55,7 @@ export const Container = styled.article`
     };
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        display: flex;
         flex-wrap: wrap;
         gap: 60px;
         padding: 20px 40px;
@@ -83,6 +84,7 @@ export const TileTitle = styled.span`
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         font-size: 24px;
+        text-align: center;
     };
 `;
 
@@ -110,10 +112,10 @@ export const TilePriceWrapper = styled.span`
     align-self: self-start;
     margin-top: -52px;
 
-    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+    /* @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         width: 80px;
         height: 80px;
-    };
+    }; */
 `;
 
 export const TilePrice = styled.span`
@@ -121,6 +123,7 @@ export const TilePrice = styled.span`
     color: black;
     font-weight: medium;
     letter-spacing: 1px;
+    text-align: center;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         font-size: 16px;

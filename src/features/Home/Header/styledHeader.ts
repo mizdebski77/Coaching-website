@@ -15,6 +15,12 @@ export const Wrapper = styled.section`
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         gap: 20px;
     };
+
+    
+    @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
+        display: block;
+        min-height: 30vh;
+    }
 `;
 export const Imagee = styled.img`
     max-width: 500px;
@@ -27,6 +33,7 @@ export const Imagee = styled.img`
 export const TextWrapper = styled.div`
     display: grid;
     justify-content: center;
+
 `;
 
 export const Title = styled.h1`
@@ -35,13 +42,28 @@ export const Title = styled.h1`
     text-align: center;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        font-size: 28px;
+        font-size: 20px;
     };
 `;
 
 export const TitleSpan = styled.span`
     color: ${({ theme }) => theme.color.fontColor};
     font-size: 80px;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        font-size: 32px;
+    };
+`;
+
+export const Span = styled.p`
+    max-width: 720px;
+    font-size: 24px;
+    margin: 0;
+    text-align: justify;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        font-size: 16px;
+    };
 `;
 
 export const TitleParagraph = styled.p`
@@ -89,4 +111,8 @@ export const Image = styled.img`
     z-index: -10;
     box-shadow: 0 0 40px;
     z-index: -10;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
+        display: none;
+    };
 `;
