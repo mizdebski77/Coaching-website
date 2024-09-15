@@ -10,6 +10,10 @@ export const Wrapper = styled.nav`
 export const LogoImg = styled.img`
     max-width: 64px;
     margin: auto;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+      max-width: 32px;
+    };
 `;
 
 export const Container = styled.div`
@@ -41,12 +45,13 @@ export const Logo = styled(Link)`
     gap: 12px;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-      font-size: 24px;
+      font-size: 20px;
     };
 `;
 
 export const LogoSpan = styled.span`
   color: ${({ theme }) => theme.color.fontColor};
+
 `;
 
 export const LinksWrapper = styled.div`

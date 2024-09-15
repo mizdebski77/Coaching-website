@@ -58,7 +58,7 @@ export const Container = styled.article`
         display: flex;
         flex-wrap: wrap;
         gap: 60px;
-        padding: 20px 40px;
+        padding: 20px;
     }; 
 `;
 

@@ -8,7 +8,7 @@ export const Wrapper = styled.section`
     padding: 40px 10px;
     min-height: 40vh;
     position: relative;
-    min-height: 80vh;
+    min-height: 90vh;
     gap: 120px;
     max-width: 1400px;
 

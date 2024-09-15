@@ -19,6 +19,7 @@ export const Container = styled.footer`
     color: white;
     position: relative;
     background: ${({ theme }) => theme.color.fontColor};
+    overflow: hidden;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
         padding: 20px;
@@ -42,7 +43,7 @@ export const Logo = styled(Link)`
     text-align: center;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
     };
 `;
@@ -51,6 +52,11 @@ export const Logo = styled(Link)`
 export const LogoImg = styled.img`
     max-width: 120px;
     margin: auto;
+
+    
+  @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+      max-width: 80px;
+    };
 `;
 
 export const LogoSpan = styled.span`
@@ -154,11 +160,18 @@ export const RealisationWrapper = styled.div`
     justify-content: center;
     align-items: center;
     position: relative;
+
+    
+  @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+      width: 100%;
+      padding: 20px;
+    };
 `;
 
-export const Span = styled.span`
+export const Span = styled.p`
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 `;
 
 export const Name = styled.a`
