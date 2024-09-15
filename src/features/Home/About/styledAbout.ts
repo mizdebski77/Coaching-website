@@ -1,5 +1,4 @@
 import { css, styled } from "styled-components";
-import { theme } from "../../../core/theme";
 
 export const Wrapper = styled.section`
     margin-top: -280px;
