@@ -100,8 +100,7 @@ export const TileText = styled.p`
 export const TilePriceWrapper = styled.span`
     background: ${({ theme }) => theme.color.mainColor};
     border-radius: 50% 0;
-    /* width: 120px;
-    height: 120px; */
+    box-shadow: 10px 10px 4px 10px ${({ theme }) => theme.color.secondColor};
     margin: 0 auto;
     padding: 40px;
     display: flex;

@@ -17,10 +17,14 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 64px;
+  padding: 12px 64px;
   top:0;
   background: ${({ theme }) => theme.color.mainColor};
   transition: 0.3s;
+
+  @media (max-width: ${({ theme }) => theme.breakPoint.firstBreakPoint}px){
+    padding: 12px 24px;
+  };
 
   @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
     padding: 12px 20px;
@@ -53,6 +57,10 @@ export const LinksWrapper = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
     display: none;
+  };
+
+  @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
+    gap: 24px;
   };
 `;
 
