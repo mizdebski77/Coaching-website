@@ -159,7 +159,6 @@ export const RealisationWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 
     
   @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
@@ -172,6 +171,10 @@ export const Span = styled.p`
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+      font-size: 16px;
+    };
 `;
 
 export const Name = styled.a`
