@@ -19,8 +19,8 @@ export const Wrapper = styled.section`
 export const Imagee = styled.img`
     max-width: 500px;
     position: absolute;
-    left: -280px;
-    opacity: 0.2;
+    left: -320px;
+    opacity: 0.1;
     top: -120px;
     z-index: -1;
 `;

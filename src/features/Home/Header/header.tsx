@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Imagee, TextWrapper, Title, TitleLink, TitleParagraph, TitleSpan, Wrapper } from './styledHeader';
 import image from '../../../common/Images/bg.jpg';
 import AnimatedElement from '../AnimatedElements';
-import cirlce from '../../../common/Images/SemiCirclesOrange.svg'
+import cirlce from '../../../common/Images/circles-oval-svgrepo-com.svg'
 export const Header = () => {
 
     return (
