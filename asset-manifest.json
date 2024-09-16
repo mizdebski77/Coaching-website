@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.js": "/Coaching-website/static/js/main.85ec3ccd.js",
-    "static/media/Artur.png": "/Coaching-website/static/media/Artur.7f79cf98b8d73a3fc9f5.png",
-    "static/media/bg.jpg": "/Coaching-website/static/media/bg.4aca60453ac86d6a70ab.jpg",
-    "static/media/OP Png.png": "/Coaching-website/static/media/OP Png.992d7dad3d6e6f3ba48c.png",
-    "static/media/circles-oval-svgrepo-com.svg": "/Coaching-website/static/media/circles-oval-svgrepo-com.55d9703abc7434c437c24a4bcd45eeb1.svg",
-    "static/media/facebook.svg": "/Coaching-website/static/media/facebook.7c1c64c92be330acbbdeda79294e56fa.svg",
-    "index.html": "/Coaching-website/index.html",
-    "static/media/mail.svg": "/Coaching-website/static/media/mail.ec3a5c261f565b627e54f7fc6136572b.svg",
-    "static/media/contact.svg": "/Coaching-website/static/media/contact.ca7ed3db9c97c2df067cfec106a9e9a7.svg",
-    "static/media/phone.svg": "/Coaching-website/static/media/phone.080005bf7b9c3db70790963a3032357d.svg",
-    "static/media/upWave.svg": "/Coaching-website/static/media/upWave.f8ff8e6c1b059a77b9a43773bbc05415.svg",
-    "static/media/contactWave.svg": "/Coaching-website/static/media/contactWave.3d6604903e70ce603049fddb92c61008.svg",
-    "static/media/SemiCircles.svg": "/Coaching-website/static/media/SemiCircles.ae15250489a9bebc1581c84d395ed6d8.svg",
-    "static/media/bottomWave.svg": "/Coaching-website/static/media/bottomWave.612278b4a4cc607b990e68505b93b4f0.svg",
-    "static/media/leftArrow.svg": "/Coaching-website/static/media/leftArrow.df4ce4047dcff91f425f41e8aa97dee6.svg",
-    "static/media/rightArrow.svg": "/Coaching-website/static/media/rightArrow.2d09ce6abfe5b96570a2722ea02b2f5f.svg",
-    "static/media/SemiCirclesOrange.svg": "/Coaching-website/static/media/SemiCirclesOrange.b7f325bc765a051fc7ec9b958853f65d.svg",
-    "main.85ec3ccd.js.map": "/Coaching-website/static/js/main.85ec3ccd.js.map"
+    "main.js": "/static/js/main.705c33a5.js",
+    "static/media/Artur.png": "/static/media/Artur.7f79cf98b8d73a3fc9f5.png",
+    "static/media/bg.jpg": "/static/media/bg.4aca60453ac86d6a70ab.jpg",
+    "static/media/OP Png.png": "/static/media/OP Png.992d7dad3d6e6f3ba48c.png",
+    "static/media/circles-oval-svgrepo-com.svg": "/static/media/circles-oval-svgrepo-com.55d9703abc7434c437c24a4bcd45eeb1.svg",
+    "static/media/facebook.svg": "/static/media/facebook.7c1c64c92be330acbbdeda79294e56fa.svg",
+    "index.html": "/index.html",
+    "static/media/mail.svg": "/static/media/mail.ec3a5c261f565b627e54f7fc6136572b.svg",
+    "static/media/contact.svg": "/static/media/contact.ca7ed3db9c97c2df067cfec106a9e9a7.svg",
+    "static/media/phone.svg": "/static/media/phone.080005bf7b9c3db70790963a3032357d.svg",
+    "static/media/upWave.svg": "/static/media/upWave.f8ff8e6c1b059a77b9a43773bbc05415.svg",
+    "static/media/contactWave.svg": "/static/media/contactWave.3d6604903e70ce603049fddb92c61008.svg",
+    "static/media/SemiCircles.svg": "/static/media/SemiCircles.ae15250489a9bebc1581c84d395ed6d8.svg",
+    "static/media/bottomWave.svg": "/static/media/bottomWave.612278b4a4cc607b990e68505b93b4f0.svg",
+    "static/media/leftArrow.svg": "/static/media/leftArrow.df4ce4047dcff91f425f41e8aa97dee6.svg",
+    "static/media/rightArrow.svg": "/static/media/rightArrow.2d09ce6abfe5b96570a2722ea02b2f5f.svg",
+    "static/media/SemiCirclesOrange.svg": "/static/media/SemiCirclesOrange.b7f325bc765a051fc7ec9b958853f65d.svg",
+    "main.705c33a5.js.map": "/static/js/main.705c33a5.js.map"
   },
   "entrypoints": [
-    "static/js/main.85ec3ccd.js"
+    "static/js/main.705c33a5.js"
   ]
 }
