@@ -24,7 +24,7 @@ export const Navigation = () => {
                     duration={1500}>
 
                     <LogoImg src={logo} alt='logo' />
-                    <LogoSpan>Optimize</LogoSpan> Performence
+                    <LogoSpan>Optimize</LogoSpan> Performance
                 </Logo>
 
                 <LinksWrapper>
