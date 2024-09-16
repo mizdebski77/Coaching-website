@@ -39,9 +39,9 @@ export const Footer = () => {
                 <Socials>
                     <FooterTitle> Skontaktuj się z nami:</FooterTitle>
                     <SVGLinks>
-                        <SVGLink href='' target='blank'><Image src={facebook} /></SVGLink>
+                        <SVGLink href='https://www.facebook.com/arti.surmik?locale=pl_PL' target='blank'><Image src={facebook} /></SVGLink>
                         <SVGLink href="mailto: "><Image src={mail} /></SVGLink>
-                        <SVGLink href="tel:"><Image src={phone} /></SVGLink>
+                        <SVGLink href="tel:530932229"><Image src={phone} /></SVGLink>
                     </SVGLinks>
                 </Socials>
             </Wrapper>

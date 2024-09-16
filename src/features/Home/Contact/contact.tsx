@@ -26,7 +26,7 @@ export const Contact = () => {
 
 
                     <AnimatedElement right>
-                        <Link> Skontakuj się z nami telefonicznie</Link>
+                        <Link href='tel:530932229'> Skontakuj się z nami telefonicznie</Link>
                     </AnimatedElement>
 
                 </LinkWrapper>
