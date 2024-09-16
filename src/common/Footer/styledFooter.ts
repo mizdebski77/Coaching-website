@@ -102,10 +102,7 @@ export const NavLink = styled(Link)`
 export const Socials = styled.div`
     display: grid;
     justify-content: center;
-
-    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        z-index: 4;
-    };
+    z-index: 4;
 `;
 
 export const FooterTitle = styled.span`
@@ -126,6 +123,7 @@ export const SVGLinks = styled.div`
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         margin: 0;
+        padding: 10px 20px 20px;
     };
 `;
 
@@ -161,7 +159,8 @@ export const RealisationWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    z-index: 4;
+
   @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
       width: 100%;
       padding: 20px;
