@@ -2,14 +2,11 @@ import { Link } from "react-scroll";
 import { styled } from "styled-components";
 
 export const Wrapper = styled.footer`
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-    padding: 64px 40px;
-
+    display: grid;
+    gap: 48px;
+    
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
-        display: grid;
-        gap: 56px;
+        gap: 28px;
     };
 `;
 
@@ -20,6 +17,8 @@ export const Container = styled.footer`
     position: relative;
     background: ${({ theme }) => theme.color.fontColor};
     overflow: hidden;
+    margin: 0 auto;
+    padding: 40px;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
         padding: 20px;
@@ -27,7 +26,6 @@ export const Container = styled.footer`
     };
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        padding: 40px 10px;
         min-height: 440px;
     };
 `;
@@ -79,6 +77,7 @@ export const Circles = styled.img`
     position: absolute;
     right: 10px;
     bottom: 0;
+    z-index: 2;
 `;
 
 export const NavLink = styled(Link)`
@@ -103,7 +102,10 @@ export const NavLink = styled(Link)`
 export const Socials = styled.div`
     display: grid;
     justify-content: center;
-    gap: 16px;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        z-index: 4;
+    };
 `;
 
 export const FooterTitle = styled.span`
@@ -153,13 +155,12 @@ export const Image = styled.img`
 
 export const RealisationWrapper = styled.div`
     border-top: 2px solid white;
-    padding: 40px;
+    padding-top: 40px;
     width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-
     
   @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
       width: 100%;

@@ -74,8 +74,22 @@ export const Tile = styled.div`
     box-shadow: 10px 10px 4px 10px ${({ theme }) => theme.color.secondColor};
     display: grid;
     justify-content: center;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        padding: 32px 20px;
+    };
 `;
 
+export const TileSpan = styled.p`
+    margin: 10px 0 10px;
+    font-size: 24px;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        font-size: 20px;
+        text-align: center;
+    };
+    
+`;
 export const TileTitle = styled.span`
     font-size: 32px;
     color: ${({ theme }) => theme.color.mainColor};
@@ -112,10 +126,9 @@ export const TilePriceWrapper = styled.span`
     align-self: self-start;
     margin-top: -52px;
 
-    /* @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        width: 80px;
-        height: 80px;
-    }; */
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        padding: 24px;
+    };
 `;
 
 export const TilePrice = styled.span`

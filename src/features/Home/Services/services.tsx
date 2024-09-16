@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, SVG, Tile, TilePrice, TilePriceWrapper, TileText, TileTitle, TileWrapper, Title, Wrapper } from './styledServices';
+import { Container, SVG, Tile, TilePrice, TilePriceWrapper, TileSpan, TileText, TileTitle, TileWrapper, Title, Wrapper } from './styledServices';
 import circles from '../../../common/Images/circles-oval-svgrepo-com.svg';
 import AnimatedElement from '../AnimatedElements';
 
@@ -21,7 +21,7 @@ export const Services = () => {
                     <TileWrapper>
                         <Tile>
                             <TileTitle>Szkolenie biznesowe
-                                <p style={{ margin: '10px 0 10px', fontSize: '24px', }}>Oferujemy możliwość przeprowadzenia szkolenia wewnątrz Twojej firmy. </p>
+                                <TileSpan>Oferujemy możliwość przeprowadzenia szkolenia wewnątrz Twojej firmy. </TileSpan>
                             </TileTitle>
                             <TileText>
                                 Dlaczego warto nas wybrać?
@@ -41,11 +41,11 @@ export const Services = () => {
                     <TileWrapper>
                         <Tile>
                             <TileTitle>Szkolenie indywidualne
-                                <p style={{ margin: '10px 0 10px', fontSize: '24px', }}>Oferujemy możliwość przeprowadzenia szkolenia wewnątrz Twojej firmy. </p>
+                                <TileSpan>Oferujemy możliwość przeprowadzenia szkolenia wewnątrz Twojej firmy. </TileSpan>
                             </TileTitle>
                             <TileText>
                                 Szkolenie przede wszystkim adresowane do Liderów, Managerów, Specjalistów, Kierowników i innych osób chcących rozwijać swoje umiejętności z zakresu zarządzania zespołem i projektami. Każde szkolenie kończy się wręczeniem certyfikatów.
-                                <ol> <p style={{fontWeight: 'bold', margin: '10px 0 ', textAlign: 'center'}}>Dostępne miejsca i terminy</p>
+                                <ol> <p style={{ fontWeight: 'bold', margin: '10px 0 ', textAlign: 'center' }}>Dostępne miejsca i terminy</p>
                                     <li>indywidualny dobór tematyki szkolenia z wyszczególnieniem ważnych dla Ciebie aspektów</li>
                                     <li>Stawiamy na rozwój Twojego zespołu - każdy z uczestników otrzyma certyfikat ukończenia szkolenia</li>
                                 </ol>

@@ -48,20 +48,20 @@ export const Article = styled.article`
     position: relative;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        padding: 40px 20px;
+        padding: 56px 20px;
     };
 `;
 
 export const Title = styled.h4`
     font-size: 62px;
     letter-spacing: 4px;
-    font-weight: lighter;
+    font-weight: normal;
     text-align: center;
     color: ${({ theme }) => theme.color.fontColor};
     margin: 0;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
-        font-size: 28px;
+        font-size: 24px;
     };
 `;
 
@@ -77,14 +77,15 @@ export const LinkWrapper = styled.div`
 
     @media (max-width: ${({ theme }) => theme.breakPoint.secondBreakPoint}px){
         display: grid;
-        gap: 28px;
+        gap: 20px;
+        margin-top: 20px;
     };
 `;
 
 export const Span = styled.span`
     font-size: 48px;
     letter-spacing: 4px;
-    font-weight: lighter;
+    font-weight: normal;
     text-align: center;
     color: ${({ theme }) => theme.color.fontColor};
 
