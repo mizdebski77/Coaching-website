@@ -41,7 +41,7 @@ export const About = () => {
 
                             <AnimatedElement bottom>
                                 <AvatarText>
-                                    Kierownik zmiany w Amazon Fulfilment Poland oraz doktorant Szkoły Doktorskiej pod kierunkiem Ekonomia i Finanse. Mimo młodego wieku może pochwalić się kilkuletnim doświadczeniem w zarządzaniu małymi i dużymi zespołami. W swojej karierze mocno stawia na optymalizację procesu poprzez standaryzację i eliminację marnotrawstw.
+                                    Kierownik zmiany w Amazon Fulfilment Poland oraz doktorant Szkoły Doktorskiej na kierunkiem Ekonomia i Finanse. Mimo młodego wieku może pochwalić się kilkuletnim doświadczeniem w zarządzaniu małymi i dużymi zespołami. W swojej karierze mocno stawia na optymalizację procesu poprzez standaryzację i eliminację marnotrawstw.
 
                                     <p style={{ fontStyle: 'italic' }}>
                                         „Swoją przygodę ze szkoleniami i prowadzeniem masowych wydarzeń zacząłem w czasie studenckim, kiedy dzięki ówczesnej pracy w gastronomii miałem okazję prowadzić kilkadziesiąt wydarzeń tematycznych, wewnętrznych szkoleń dla personelu oraz degustacji win z udziałem winiarzy z różnych zakątków Europy.”

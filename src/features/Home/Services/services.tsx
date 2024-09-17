@@ -45,15 +45,15 @@ export const Services = () => {
                             </TileTitle>
                             <TileText>
                                 Szkolenie przede wszystkim adresowane do Liderów, Managerów, Specjalistów, Kierowników i innych osób chcących rozwijać swoje umiejętności z zakresu zarządzania zespołem i projektami. Każde szkolenie kończy się wręczeniem certyfikatów.
-                                <ol> <p style={{ fontWeight: 'bold', margin: '10px 0 ', textAlign: 'center' }}>Dostępne miejsca i terminy</p>
+                                {/* <ul> <p style={{ fontWeight: 'bold', margin: '10px 0 ', textAlign: 'center' }}>Dostępne miejsca i terminy</p>
                                     <li>indywidualny dobór tematyki szkolenia z wyszczególnieniem ważnych dla Ciebie aspektów</li>
                                     <li>Stawiamy na rozwój Twojego zespołu - każdy z uczestników otrzyma certyfikat ukończenia szkolenia</li>
-                                </ol>
+                                </ul> */}
                             </TileText>
 
                         </Tile>
                         <TilePriceWrapper>
-                            <TilePrice>1000 zł</TilePrice>
+                            <TilePrice>990 zł</TilePrice>
                         </TilePriceWrapper>
                     </TileWrapper>
                 </Container>

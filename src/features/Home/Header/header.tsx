@@ -20,9 +20,8 @@ export const Header = () => {
                     </Title>
                 </AnimatedElement>
                 <Span >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ullam sed! Quod fugiat, quibusdam pariatur dolorem aspernatur, adipisci harum molestiae maxime temporibus sapiente ipsum dolor porro est itaque tempore dicta?
 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ullam sed! Quod fugiat, quibusdam pariatur dolorem aspernatur, adipisci harum molestiae maxime temporibus sapiente ipsum dolor porro est itaque tempore dicta?
+                Firma założona z pasji do dzielenia się wiedzą i doświadczeniem. Jesteśmy praktykami, którzy każdego dnia wykorzystują omawiane podczas szkoleń narzędzia, jak i umiejętności miękkie. Nauczymy Cię praktycznego spojrzenia na problem, stosowania adekwatnych narzędzi i ciągłego dążenia do doskonałości. Zarządzamy zespołami liczącymi ponad 300 osób - podzielimy się z Tobą naszym doświadczeniem. Zapoznaj się z naszą ofertą!
                 </Span>
 
 
