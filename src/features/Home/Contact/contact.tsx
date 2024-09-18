@@ -19,7 +19,7 @@ export const Contact = () => {
                 </AnimatedElement>
                 <LinkWrapper >
                     <AnimatedElement left>
-                        <Link href='https://www.youtube.com/'>Napisz do nas</Link>
+                        <Link href='mailto:artur.surmik@optimizeperformance.pl'>Napisz do nas</Link>
                     </AnimatedElement>
 
                     <AnimatedElement bottom><Span>Lub</Span></AnimatedElement>

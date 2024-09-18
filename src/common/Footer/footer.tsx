@@ -40,7 +40,7 @@ export const Footer = () => {
                     <FooterTitle> Skontaktuj się z nami:</FooterTitle>
                     <SVGLinks>
                         <SVGLink href='https://www.facebook.com/arti.surmik?locale=pl_PL' target='blank'><Image src={facebook} /></SVGLink>
-                        <SVGLink href="mailto: "><Image src={mail} /></SVGLink>
+                        <SVGLink href="mailto:artur.surmik@optimizeperformance.pl"><Image src={mail} /></SVGLink>
                         <SVGLink href="tel:530932229"><Image src={phone} /></SVGLink>
                     </SVGLinks>
                 </Socials>

@@ -27,7 +27,7 @@ export const Header = () => {
 
                 <AnimatedElement right>
                     <div style={{marginTop: '32px'}}>
-                        <TitleLink href='http://localhost:3000/' >
+                        <TitleLink href='mailto:artur.surmik@optimizeperformance.pl' >
                             Napisz do nas!
                         </TitleLink>
                     </div>
