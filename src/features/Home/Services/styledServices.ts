@@ -66,6 +66,7 @@ export const ExpandWrapper = styled.div`
     font-size: 20px;
     margin: 0;
     text-align: justify;
+    word-spacing: -2px;
     border-radius: 12px;
     color: black;
 

@@ -59,7 +59,7 @@ export const Services = () => {
                                     {item.list.length > 0 && (
                                         <UList
                                             as={motion.ul}
-                                      
+
                                             variants={{
                                                 open: { opacity: 1, },
                                                 collapsed: { opacity: 0, }
@@ -111,7 +111,15 @@ export const Services = () => {
                             }}
                             transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
                         >
-                            Oferujemy kompleksowe doradztwo dla firm produkcyjno-magazynowych, koncentrujące się na pięciu kluczowych obszarach:
+                            <motion.p
+                                variants={{
+                                    open: { opacity: 1, },
+                                    collapsed: { opacity: 0, }
+                                }} transition={{ duration: 0.8, delay: 0.2 }}
+                            >
+                                Oferujemy kompleksowe doradztwo dla firm produkcyjno-magazynowych, koncentrujące się na pięciu kluczowych obszarach:
+
+                            </motion.p>
                             <OList
                                 as={motion.ol}
                                 variants={{
