@@ -156,7 +156,7 @@ export const Avatar = styled.img`
     width: 100%;
     margin: 0 auto;
     z-index: 9;
-    filter: drop-shadow(0px 0px 10px);
+    filter: drop-shadow(0px 0px 20px #b3b1b1 );
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         max-width: 140px;

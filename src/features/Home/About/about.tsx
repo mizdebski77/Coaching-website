@@ -29,7 +29,7 @@ export const About = () => {
 
                     <AvatarWrapper>
                         <AnimatedElement left>
-                            <Avatar src={artur} />
+                            <Avatar src={artur} alt='profile' />
                         </AnimatedElement>
 
                         <AvatarTextWrapper >
@@ -41,7 +41,7 @@ export const About = () => {
 
                             <AnimatedElement bottom>
                                 <AvatarText>
-                                    Kierownik zmiany w Amazon Fulfilment Poland oraz doktorant Szkoły Doktorskiej na kierunkiem Ekonomia i Finanse. Mimo młodego wieku może pochwalić się kilkuletnim doświadczeniem w zarządzaniu małymi i dużymi zespołami. W swojej karierze mocno stawia na optymalizację procesu poprzez standaryzację i eliminację marnotrawstw.
+                                    Kierownik zmiany w Amazon Fulfilment Poland oraz doktorant Szkoły Doktorskiej na kierunku Ekonomia i Finanse. Mimo młodego wieku może pochwalić się kilkuletnim doświadczeniem w zarządzaniu małymi i dużymi zespołami. W swojej karierze mocno stawia na optymalizację procesu poprzez standaryzację i eliminację marnotrawstw.
 
                                     <p style={{ fontStyle: 'italic' }}>
                                         „Swoją przygodę ze szkoleniami i prowadzeniem masowych wydarzeń zacząłem w czasie studenckim, kiedy dzięki ówczesnej pracy w gastronomii miałem okazję prowadzić kilkadziesiąt wydarzeń tematycznych, wewnętrznych szkoleń dla personelu oraz degustacji win z udziałem winiarzy z różnych zakątków Europy.”
@@ -52,14 +52,14 @@ export const About = () => {
 
 
                     </AvatarWrapper>
-                    <Topics>Zakres Tematyczny:</Topics>
+                    {/* <Topics>Zakres Tematyczny:</Topics>
                     <List>
                         <li>Optymalizacja procesu w myśl zasady Lean Six Sigma</li>
                         <li>Feedback - skuteczne udzielanie i przyjmowanie informacji zwrotnej</li>
                         <li>Difficult conversations - prowadzenie trudnych rozmów z pracownikiem</li>
                         <li>Negocjacje i strategie przywódcze, czyli umiejętne zarządzanie zespołem</li>
                         <li>Identyfikacja celu i realizacja wyznaczonych KPI</li>
-                    </List>
+                    </List> */}
 
                     {/* <AvatarWrapper reverse >
                         <AvatarTextWrapper >

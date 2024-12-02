@@ -21,7 +21,7 @@ export const Header = () => {
                 </AnimatedElement>
                 <Span >
 
-                Firma założona z pasji do dzielenia się wiedzą i doświadczeniem. Jesteśmy praktykami, którzy każdego dnia wykorzystują omawiane podczas szkoleń narzędzia, jak i umiejętności miękkie. Nauczymy Cię praktycznego spojrzenia na problem, stosowania adekwatnych narzędzi i ciągłego dążenia do doskonałości. Zarządzamy zespołami liczącymi ponad 300 osób - podzielimy się z Tobą naszym doświadczeniem. Zapoznaj się z naszą ofertą!
+                Firma założona z pasji do dzielenia się wiedzą i doświadczeniem. Jesteśmy praktykami, którzy każdego dnia wykorzystują omawiane podczas szkoleń narzędzia, jak i umiejętności miękkie. Nauczymy Cię praktycznego spojrzenia na problem, stosowania adekwatnych narzędzi i ciągłego dążenia do doskonałości. Zarządzamy zespołami liczącymi ponad 1000 osób - podzielimy się z Tobą naszym doświadczeniem. Zapoznaj się z naszą ofertą!
                 </Span>
 
 
