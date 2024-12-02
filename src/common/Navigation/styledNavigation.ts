@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export const Wrapper = styled.nav`
   position: sticky;
-  z-index: 10; 
+  z-index: 12; 
   top: 0;
 `;
 
@@ -22,6 +22,8 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 8px 64px;
+  position: sticky;
+  z-index: 10; 
   top:0;
   background: ${({ theme }) => theme.color.mainColor};
   transition: 0.3s;
@@ -112,9 +114,12 @@ export const MobileNavbar = styled.div`
 
 export const MobileNavbarWrapper = styled.div`
     background: rgba(243, 154, 19, 0.97);
+    border-bottom: 1px solid ${({ theme }) => theme.color.secondColor};
     position: fixed;
     width: 100%;
-    z-index: -1;
+    z-index: 9;
+    padding: 0 0 20px 0;
+    padding: 12px;
     min-height: 200px;
 
     @media (min-width: ${({ theme }) => theme.breakPoint.mobileMax}px){

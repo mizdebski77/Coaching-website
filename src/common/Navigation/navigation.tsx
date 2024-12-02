@@ -47,9 +47,7 @@ export const Navigation = () => {
             </Container>
 
             <AnimatePresence>
-
                 {mobileNavbar && (
-
                     <MobileNavbarWrapper
                         as={motion.div}
                         initial="hidden"
@@ -76,7 +74,8 @@ export const Navigation = () => {
                                 </NavLink>
                             ))}
                         </MobileLinksWrapper>
-                    </MobileNavbarWrapper>)}
+                    </MobileNavbarWrapper>
+                )}
             </AnimatePresence>
         </Wrapper>
     );
