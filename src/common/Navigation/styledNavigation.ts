@@ -119,7 +119,7 @@ export const MobileNavbarWrapper = styled.div`
     width: 100%;
     z-index: 9;
     padding: 0 0 20px 0;
-    padding: 12px;
+
     min-height: 200px;
 
     @media (min-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
