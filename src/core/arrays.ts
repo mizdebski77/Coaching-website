@@ -105,7 +105,7 @@ export const ServicesData = [
         list: []
     },
     {
-        title: 'Szkolenie Leaderów i Managerów – Szkolenie rozwijające umiejętności potrzebne do zarządzania ludźmi i wdrażania Lean.',
+        title: 'Szkolenie Leaderów i Managerów',
         description: '',
         list: [
             {

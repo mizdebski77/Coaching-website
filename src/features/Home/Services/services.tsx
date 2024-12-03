@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExpandButton, ExpandContent, ExpandSpan, ExpandWrapper, ListItem, ListItemWrapper, ListWrapper, OList, SVG, Title, UList, Wrapper } from './styledServices';
+import { ExpandButton, ExpandContent, ExpandSpan, ExpandWrapper, ListItem, ListItemWrapper, ListTitle, ListWrapper, OList, SVG, Title, UList, Wrapper } from './styledServices';
 import circles from '../../../common/Images/circles-oval-svgrepo-com.svg';
 import AnimatedElement from '../AnimatedElements';
 import { ServicesData } from '../../../core/arrays';
@@ -26,6 +26,7 @@ export const Services = () => {
             <SVG src={circles} />
             <SVG src={circles} bottom />
             <ListWrapper>
+                <ListTitle>Szkolenia</ListTitle>
                 {ServicesData.map((item, index) => (
                     <ListItemWrapper key={index}>
                         <ListItem>
@@ -95,6 +96,7 @@ export const Services = () => {
                     </ListItemWrapper>
                 ))}
 
+                <ListTitle>Doradztwo</ListTitle>
                 <ListItemWrapper>
                     <ListItem>
                         Doradztwo Lean Menagement

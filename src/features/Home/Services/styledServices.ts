@@ -39,6 +39,7 @@ export const Title = styled.h3`
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         font-size: 28px;
+        margin: 0 0 24px 0;
     };
 `;
 
@@ -49,6 +50,17 @@ export const ListWrapper = styled.div`
     text-align: center;
     padding: 20px;
     gap: 20px;
+`;
+
+export const ListTitle = styled.span`
+    text-align: left;
+    font-size: 32px;
+    padding: 12px 0 0 12px;
+
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        font-size: 24px;
+        text-align: center;
+    };
 `;
 
 export const ListItemWrapper = styled.div`
