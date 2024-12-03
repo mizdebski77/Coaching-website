@@ -6,11 +6,15 @@ import { ServicesData } from '../../../core/arrays';
 import { AnimatePresence, motion } from 'framer-motion';
 
 export const Services = () => {
-    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+    const [expandedIndices, setExpandedIndices] = useState<number[]>([]);
 
     const toggleExpand = (index: number) => {
-        setExpandedIndex(prevIndex => (prevIndex === index ? null : index));
-    };
+        setExpandedIndices(prevIndices =>
+            prevIndices.includes(index)
+                ? prevIndices.filter(i => i !== index) // Usuwanie indeksu, jeśli już istnieje
+                : [...prevIndices, index] // Dodawanie nowego indeksu
+        );
+    }
 
     return (
         <Wrapper id="services">
@@ -27,10 +31,10 @@ export const Services = () => {
                         <ListItem>
                             {item.title}
                             <ExpandButton onClick={() => toggleExpand(index)}>
-                                {expandedIndex === index ? 'Zwiń' : 'Czytaj więcej'}
+                                {expandedIndices.includes(index) ? 'Zwiń' : 'Czytaj więcej'}
                             </ExpandButton>
                         </ListItem>
-                        {expandedIndex === index && (
+                        {expandedIndices.includes(index) && (
                             <AnimatePresence>
                                 <ExpandWrapper
                                     as={motion.div}
@@ -95,10 +99,10 @@ export const Services = () => {
                     <ListItem>
                         Doradztwo Lean Menagement
                         <ExpandButton onClick={() => toggleExpand(-1)}>
-                            {expandedIndex === -1 ? 'Zwiń' : 'Czytaj więcej'}
+                            {expandedIndices.includes(-1) ? 'Zwiń' : 'Czytaj więcej'}
                         </ExpandButton>
                     </ListItem>
-                    {expandedIndex === -1 && (
+                    {expandedIndices.includes(-1) && (
                         <ExpandWrapper
                             as={motion.div}
                             key="content"
